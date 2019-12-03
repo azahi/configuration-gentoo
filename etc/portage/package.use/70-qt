@@ -1,0 +1,15 @@
+dev-libs/qtkeychain qt5
+dev-qt/* X
+dev-qt/* alsa pulseaudio
+dev-qt/* dbus
+dev-qt/* gif jpeg png
+dev-qt/* qml
+dev-qt/* qt5
+dev-qt/* widgets
+dev-qt/* xcb
+dev-qt/* xml
+dev-qt/qtcore icu
+dev-qt/qtdeclarative localstorage
+dev-qt/qtnetwork libproxy networkmanager
+dev-qt/qtsql sqlite postgres
+dev-qt/qtwebengine jumbo-build

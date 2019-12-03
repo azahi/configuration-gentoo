@@ -1,0 +1,13 @@
+*/*::docker
+*/*::dotnet
+*/*::emacs
+*/*::go-overlay
+*/*::haskell
+*/*::lisp
+*/*::python
+*/*::qt
+*/*::ricerlay **
+*/*::ros-overlay
+*/*::rust
+*/*::sakaki-tools
+*/*::science

@@ -1,0 +1,12 @@
+diff --git a/Distribution/Gentoo/PkgManager.hs b/Distribution/Gentoo/PkgManager.hs
+index 8e8cf0a..e7a3cef 100644
+--- a/Distribution/Gentoo/PkgManager.hs
++++ b/Distribution/Gentoo/PkgManager.hs
+@@ -95,6 +95,7 @@ defaultPMFlags               :: PkgManager -> [String]
+ defaultPMFlags Portage       = [ "--oneshot"
+                                , "--keep-going"
+                                , "--complete-graph"
++                               , "--ask=n"
+                                ]
+ defaultPMFlags PkgCore       = [ "--deep"
+                                , "--oneshot"

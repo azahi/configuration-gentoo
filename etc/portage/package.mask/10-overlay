@@ -1,0 +1,20 @@
+#*/*::docker
+#*/*::dotnet
+#*/*::emacs
+#*/*::go-overlay
+#*/*::haskell
+#*/*::lisp
+#*/*::python
+*/*::qt
+#*/*::ricerlay
+#*/*::ros-overlay
+#*/*::rust
+#*/*::sakaki-tools
+*/*::science
+
+### Prefer ::haskell over the main tree
+dev-haskell/*::gentoo
+dev-lang/ghc::gentoo
+
+### Guile is broken in ::lisp
+dev-scheme/guile::lisp

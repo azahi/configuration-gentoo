@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+name="${1}"
+url="${2}"
+path="${3}"
+
+openpgp_key="/var/lib/gentoo/gkeys/keyrings/gentoo/release/pubring.gpg"
+
+if [[ "${name}" == gentoo && "${url}" == rsync://* ]]
+then
+	gemato verify --openpgp-key "${openpgp_key}" --jobs=5 --keep-going --require-signed-manifest "${path}" || \
+		exit 1
+fi
+
+exit 0

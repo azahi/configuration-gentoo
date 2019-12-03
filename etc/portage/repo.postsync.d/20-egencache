@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+repository_name="${1}"
+sync_uri="${2}"
+repository_path="${3}"
+
+if [ -n "${repository_name}" ]
+then
+	if [ "${repository_name}" != "gentoo" ]
+	then
+		egencache --update --repo="${repository_name}" --jobs=5 --load-average=5 || \
+			exit 1
+	fi
+fi
+
+exit 0

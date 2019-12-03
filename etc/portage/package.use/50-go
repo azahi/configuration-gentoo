@@ -1,0 +1,2 @@
+dev-lang/go -gccgo
+sys-devel/gcc -go

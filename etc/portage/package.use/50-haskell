@@ -1,0 +1,30 @@
+*/*::haskell doc hoogle hscolour
+*/*::haskell network network-uri
+*/*::haskell profile
+*/*::haskell template-haskell
+app-text/pandoc derive-json-via-th
+dev-haskell/aeson-pretty lib-only
+dev-haskell/bifunctors semigroups tagged
+dev-haskell/cabal-install native-dns
+dev-haskell/cmdargs quotation
+dev-haskell/comonad containers contravariant distributive
+dev-haskell/contravariant safe semigroups statevar tagged
+dev-haskell/cryptonite integer-gmp
+dev-haskell/hashtables bounds-checking detailed-profiling
+dev-haskell/haskeline libiconv
+dev-haskell/hlint gpl threaded
+dev-haskell/integer-logarithms integer-gmp
+dev-haskell/juicypixels mmap
+dev-haskell/lens inlining j safe trustworthy
+dev-haskell/microlens-th inlining
+dev-haskell/nats binary hashable
+dev-haskell/persistent-sqlite full-text-search have-usleep json1 uri-filenames
+dev-haskell/semigroupoids comonad containers contravariant distributive tagged unordered-containers
+dev-haskell/semigroups binary transformers
+dev-haskell/yaml no-examples no-exe no-unicode
+dev-haskell/zlib non-blocking-ffi
+dev-lang/ghc elfutils
+dev-util/shellcheck doc hoogle hscolour profile
+x11-misc/xmobar alsa dbus inotify mpd timezone wifi conduit rtsopts weather xft
+x11-wm/xmonad no-autorepeat-keys
+x11-wm/xmonad-contrib xft

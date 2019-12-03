@@ -1,0 +1,175 @@
+app-admin/hddtemp network-cron
+app-admin/pass X git
+app-admin/pass-otp qrcode
+app-admin/sudo -sasl
+app-admin/sysstat lm-sensors
+app-admin/testdisk ewf ntfs
+app-arch/libarchive bzip2
+app-arch/tar minimal
+app-crypt/gnupg bzip2 tools user-socket
+app-crypt/p11-kit asn1 trust
+app-crypt/pinentry ncurses qt5
+app-emulation/docker container-init device-mapper overlay
+app-emulation/qemu -gnutls -sasl sdl vhost-net virtfs
+app-forensics/aide curl e2fs mhash postgresql zlib
+app-forensics/libewf bfio fuse unicode uuid zlib
+app-i18n/fcitx X cairo dbus pango
+app-i18n/mozc fcitx4
+app-laptop/laptop-mode-tools acpi
+app-laptop/thinkfan atasmart yaml
+app-misc/ca-certificates cacert
+app-misc/tmux -vim-syntax
+app-portage/eix sqlite
+app-portage/gemato blake2 bzip2 gpg lzma sha3
+app-portage/genup buildkernel
+app-portage/layman git sqlite sync-plugin-portage
+app-portage/portage-utils qmanifest qtegrity
+app-shells/zsh unicode
+app-text/asciidoc highlight
+app-text/aspell unicode L10N: de fr ru
+app-text/cmigemo unicode
+app-text/discount minimal
+app-text/editorconfig-core-c cli
+app-text/hunspell L10N: de fr ru
+app-text/mupdf X
+app-text/poppler cairo utils
+app-text/xmlto text
+dev-db/postgresql icu llvm server
+dev-db/sqlite secure-delete tools
+dev-games/ogre poco
+dev-lang/spidermonkey minimal
+dev-libs/boost context icu nls tools
+dev-libs/elfutils static-libs utils
+dev-libs/glib dbus mime utils
+dev-libs/gmime crypt smime
+dev-libs/jemalloc lazy-lock prof stats xmalloc
+dev-libs/libpcre pcre16 unicode
+dev-libs/libpcre2 pcre16 unicode
+dev-libs/libsodium minimal
+dev-libs/libverto glib
+dev-libs/libxml2 icu
+dev-libs/nss cacert
+dev-libs/poco -ssl
+dev-util/dialog minimal
+dev-util/fatrace powertop
+dev-util/google-perftools minimal
+dev-util/ltrace unwind
+dev-util/perf clang unwind
+dev-util/pkgconfig internal-glib
+dev-util/plan9port X truetype
+dev-util/strace unwind
+dev-util/systemtap -ssl
+dev-vcs/git blksha1 curl gpg highlight webdav
+media-fonts/efont-unicode -X
+media-fonts/fontawesome ttf
+media-fonts/noto extra
+media-gfx/imagemagick X jpeg png
+media-gfx/sxiv gif jpeg png
+media-libs/freetype X bzip2 cleartype_hinting harfbuzz
+media-libs/gd fontconfig jpeg png truetype zlib
+media-libs/harfbuzz fontconfig glib graphite icu truetype
+media-libs/imlib2 X gif jpeg png
+media-libs/libass harfbuzz fontconfig
+media-libs/libepoxy X egl
+media-libs/libsdl X joystick sound video opengl
+media-libs/libsdl2 X joystick sound video opengl
+media-libs/libtheora encode
+media-libs/libvpx svc
+media-libs/libwebp experimental swap-16bit-csp
+media-libs/mesa classic dri3 egl gbm gles1 gles2
+media-libs/opencv contrib
+media-libs/sdl-image gif jpeg png tiff
+media-libs/sdl2-image gif jpeg png tiff
+media-sound/alsa-utils libsamplerate ncurses
+media-sound/mpd libsamplerate sqlite zlib
+media-sound/opus-tools flac
+media-sound/pulseaudio alsa-plugin dbus glib realtime
+media-video/ffmpeg X encode gpl hardcoded-tables libass mp3 network opengl opus theora vaapi vorbis vpx x264 xcb xvid zimg
+media-video/mpv X cli jpeg libass opengl vaapi zlib
+net-analyzer/ettercap ncurses
+net-analyzer/icinga2 console minimal plugins postgres
+net-analyzer/jnettop ncurses
+net-analyzer/monitoring-plugins dns fping postgres ssh
+net-analyzer/mtr ncurses
+net-analyzer/netdata postgres
+net-analyzer/nmap ncat ndiff nping nse
+net-analyzer/tcpdump drop-root
+net-analyzer/vnstat gd
+net-analyzer/wireshark capinfos captype dumpcap http2 editcap libxml2 maxmindb mergecap netlink randpkt randpktdump reordercap sharkd smi sshdump text2pcap tfshark tshark udpdump
+net-dns/dnsmasq dnssec
+net-firewall/iptables conntrack netlink nftables
+net-im/bitlbee plugins purple
+net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger
+net-libs/gnutls tools
+net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc
+net-misc/curl http2 progress-meter
+net-misc/dhcp client
+net-misc/electrum cli ncurses qt5
+net-misc/mosh client
+net-misc/networkmanager dhclient ncurses policykit resolvconf wifi
+net-misc/openssh hpn
+net-vpn/openvpn down-root lzo plugins
+net-vpn/wireguard module tools
+net-wireless/aircrack-ng experimental netlink
+net-wireless/wpa_supplicant dbus
+sci-visualization/gnuplot X libcaca libcerf gd qt5
+sys-apps/dbus X user-session
+sys-apps/debianutils installkernel
+sys-apps/dstat wifi
+sys-apps/firejail chroot contrib file-transfer globalcfg network private-home userns whitelist
+sys-apps/gptfdisk ncurses
+sys-apps/hwids net pci usb
+sys-apps/inxi hddtemp opengl
+sys-apps/iproute2 elf iptables
+sys-apps/kmod tools
+sys-apps/less unicode
+sys-apps/lm-sensors contrib sensord
+sys-apps/man-db gdbm manpager
+sys-apps/miscfiles minimal
+sys-apps/net-tools arp hostname
+sys-apps/portage ipc gentoo-dev native-extensions rsync-verify
+sys-apps/systemd cgroup-hybrid cryptsetup elfutils gnuefi policykit
+sys-apps/util-linux ncurses static-libs suid unicode
+sys-auth/pam_mktemp prevent-removal
+sys-auth/pambase minimal mktemp sha512
+sys-block/parted device-mapper
+sys-devel/bc forced-sandbox
+sys-devel/binutils cxx gold plugins
+sys-devel/clang default-compiler-rt default-libcxx static-analyzer xml
+sys-devel/clang-runtime compiler-rt libcxx sanitize
+sys-devel/gcc fortran graphite nptl
+sys-devel/gdb client lzma multitarget source-highlight xml
+sys-devel/llvm gold libffi ncurses xml
+sys-firmware/intel-microcode hostonly split-ucode
+sys-firmware/seabios binary seavgabios
+sys-fs/lvm2 thin
+sys-fs/ntfs3g ntfsprogs
+sys-kernel/genkernel-next cryptsetup gpg
+sys-kernel/linux-firmware redistributable
+sys-libs/compiler-rt-sanitizers libfuzzer profile sanitize xray
+sys-libs/ncurses tinfo unicode
+sys-libs/timezone-data leaps-timezone
+sys-libs/zlib minizip
+sys-power/powertop X
+sys-process/htop unicode
+sys-process/lsof rpc
+sys-process/procps kill modern-top ncurses unicode
+sys-process/systemd-cron cron-boot minutely yearly
+sys-process/tini static
+www-client/firefox eme-free geckodriver hwaccel
+www-client/qutebrowser scripts
+www-client/w3m X imlib
+x11-apps/mesa-progs egl gles2
+x11-apps/xinit minimal
+x11-base/xorg-server glamor kdrive xephyr xnest xorg xvfb
+x11-drivers/xf86-video-intel dri dri3 sna xvmc
+x11-libs/cairo svg
+x11-libs/libXaw3d unicode xpm
+x11-libs/libXfont2 bzip2 truetype
+x11-libs/libva drm opengl utils
+x11-libs/libva-intel-driver drm
+x11-libs/motif jpeg png unicode xft
+x11-misc/compton opengl
+x11-misc/xlockmore crypt imagemagick truetype vtlock
+x11-misc/xss-lock man
+x11-terms/rxvt-unicode 256-color font-styles xft

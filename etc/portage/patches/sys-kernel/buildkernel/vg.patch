@@ -1,0 +1,15 @@
+diff --git a/buildkernel b/buildkernel
+index 2115326..c62f6fc 100755
+--- a/buildkernel
++++ b/buildkernel
+@@ -71,8 +71,8 @@ SECUREBOOTCERT="/etc/efikeys/db.crt"
+ SIGNEDSUFFIX=".signed"
+ ADDITIONALKERNELCMDS=""
+ ADDITIONALGENKERNELOPTS="--all-ramdisk-modules --firmware"
+-CMDLINE_REAL_ROOT="/dev/mapper/vg1-root"
+-CMDLINE_REAL_RESUME="/dev/mapper/vg1-swap"
++CMDLINE_REAL_ROOT="/dev/mapper/sg-root"
++CMDLINE_REAL_RESUME="/dev/mapper/sg-swap"
+ declare -i DEFAULTCREATEEFIBOOT=1
+ declare -i CREATEEFIBOOT="${DEFAULTCREATEEFIBOOT}"
+ declare -i DEFAULTCOMPRESSINITRAMFS=1

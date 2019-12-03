@@ -1,0 +1,4 @@
+dev-lang/ocaml X flambda latex ncurses ocamlopt spacetime
+dev-ml/* ocamlopt
+dev-ml/dose3 parmap
+dev-ml/lwt libev camlp4

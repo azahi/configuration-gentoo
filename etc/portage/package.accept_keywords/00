@@ -1,0 +1,15 @@
+app-emulation/docker-cli **
+app-misc/no-more-secrets **
+app-shells/rust-zshcomp **
+app-shells/tmux-bash-completion **
+app-shells/zsh-completions **
+dev-lang/perl **
+dev-libs/gnulib **
+dev-python/statsmodels **
+dev-util/racer **
+dev-util/rusty-tags **
+media-sound/mumble **
+net-vpn/wireguard **
+sys-process/htop **
+www-client/qutebrowser **
+www-misc/profile-sync-daemon **
