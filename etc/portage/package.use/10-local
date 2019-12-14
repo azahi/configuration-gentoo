@@ -49,7 +49,8 @@ dev-libs/libsodium minimal
 dev-libs/libverto glib
 dev-libs/libxml2 icu
 dev-libs/nss cacert
-dev-libs/poco -ssl
+dev-libs/poco net -ssl
+dev-libs/xapian remote
 dev-util/dialog minimal
 dev-util/fatrace powertop
 dev-util/google-perftools minimal
@@ -147,6 +148,7 @@ sys-fs/ntfs3g ntfsprogs
 sys-kernel/genkernel-next cryptsetup gpg
 sys-kernel/linux-firmware redistributable
 sys-libs/compiler-rt-sanitizers libfuzzer profile sanitize xray
+sys-libs/libcxx libcxxabi
 sys-libs/ncurses tinfo unicode
 sys-libs/timezone-data leaps-timezone
 sys-libs/zlib minizip

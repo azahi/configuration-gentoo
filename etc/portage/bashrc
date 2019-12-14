@@ -4,7 +4,7 @@ if [[ ${FEATURES} == *ccache* && ${EBUILD_PHASE_FUNC} == src_* ]]
 then
     if [[ ${CCACHE_DIR} == /var/cache/ccache ]]
     then
-        export CCACHE_DIR=/var/cache/ccache/${CATEGORY}/${PN}:${SLOT}
+        export CCACHE_DIR="/var/cache/ccache/${CATEGORY}/${PN}:${SLOT}"
         mkdir --parent "${CCACHE_DIR}" || die
     fi
 fi
@@ -16,24 +16,26 @@ pre_src_prepare()
     if ! type estack_push > /dev/null 2>&1
     then
         local estack_names="eshopts_push eshopts_pop evar_push evar_push_set evar_pop estack_push estack_pop"
-        source <(awk "/^# @(FUNCTION|VARIABLE): / { p = 0 } /^# @(FUNCTION|VARIABLE): (${estack_names// /|})\$/ { p = 1 } p { print }" ${PORTDIR}/eclass/estack.eclass)
+        # shellcheck disable=SC1090
+        source <(awk "/^# @(FUNCTION|VARIABLE): / { p = 0 } /^# @(FUNCTION|VARIABLE): (${estack_names// /|})\$/ { p = 1 } p { print }" "${PORTDIR}/eclass/estack.eclass")
     fi
 
     if ! type epatch_user > /dev/null 2>&1
     then
         local epatch_names="EPATCH_SOURCE EPATCH_USER_SOURCE epatch_user_death_notice epatch_user epatch"
-        source <(awk "/^# @(FUNCTION|VARIABLE): / { p = 0 } /^# @(FUNCTION|VARIABLE): (${epatch_names// /|})\$/ { p = 1 } p { print }" ${PORTDIR}/eclass/epatch.eclass)
+        # shellcheck disable=SC1090
+        source <(awk "/^# @(FUNCTION|VARIABLE): / { p = 0 } /^# @(FUNCTION|VARIABLE): (${epatch_names// /|})\$/ { p = 1 } p { print }" "${PORTDIR}/eclass/epatch.eclass")
     fi
 
     epatch_user
 
     for name in $epatch_names
     do
-        unset $name
+        unset "$name"
     done
 
     for name in $estack_names
     do
-        unset $name
+        unset "$name"
     done
 }
