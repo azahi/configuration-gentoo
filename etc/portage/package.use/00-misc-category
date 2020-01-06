@@ -1,0 +1,93 @@
+*/* acl xattr
+*/* aio openmp threads
+*/* asm custom-cflags custom-optimization lto pgo native-extensions
+*/* branding
+*/* caps filecaps
+*/* cron
+*/* ecdsa gnutls openssl ssl sasl tls-heartbeat
+*/* gmp
+*/* jemalloc tcmalloc
+*/* jit
+*/* kmem
+*/* pam
+*/* pcap
+*/* pic pie seccomp
+*/* readline
+*/* savedconfig
+*/* system-av1
+*/* system-binutils
+*/* system-boost
+*/* system-bzip2
+*/* system-cairo
+*/* system-capstone
+*/* system-clang
+*/* system-cmark
+*/* system-crontab
+*/* system-digest
+*/* system-ffmpeg
+*/* system-glfw
+*/* system-harfbuzz
+*/* system-heimdal
+*/* system-hunspell
+*/* system-icu
+*/* system-jpeg
+*/* system-jsoncpp
+*/* system-lcms
+*/* system-libevent
+*/* system-libvpx
+*/* system-libwebp
+*/* system-libyaml
+*/* system-llvm
+*/* system-lua
+*/* system-mitkrb5
+*/* system-mupdf
+*/* system-qemu
+*/* system-qt
+*/* system-renpy
+*/* system-seabios
+*/* system-snappy
+*/* system-sqlite
+*/* system-tbb
+*/* system-uulib
+*/* system-webp
+*/* system-wine
+*/* system-zlib
+*/* systemd
+*/* systemtap
+*/* udev urandom
+*/* xinerama
+*/* zsh-completion
+app-arch/* unicode
+app-dicts/* L10N: de de-1901 en en_UK en_US fr ja ru
+app-dicts/* unicode nls
+app-i18n/* L10N: de de-1901 en en_UK en_US fr ja ru
+app-i18n/* unicode nls
+app-text/* L10N: de de-1901 en en_UK en_US fr ja ru
+app-text/* unicode nls cjk
+media-fonts/* L10N: de de-1901 en en_UK en_US fr ja ru
+media-fonts/* X
+media-fonts/* nls unicode cjk
+media-libs/* X
+media-libs/* alsa pulseaudio
+media-plugins/* alsa pulseaudio
+media-sound/* alsa pulseaudio
+media-sound/* flac mpg123 id3tag
+media-video/* X
+media-video/* alsa pulseaudio
+net-analyzer/* ipv6
+net-dns/* ipv6
+net-firewall/* ipv6
+net-ftp/* ipv6
+net-im/* ipv6
+net-libs/* ipv6
+net-misc/* ipv6
+sys-apps/* ipv6
+sys-apps/* kmod
+sys-apps/* split-usr
+sys-kernel/* experimental
+sys-libs/* clang
+sys-process/* ipv6
+virtual/* -*
+virtual/* ABI_X86: 64
+x11-libs/* X
+x11-libs/* xcb xkb

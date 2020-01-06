@@ -16,6 +16,7 @@ app-admin/sysstat
 app-admin/testdisk
 app-arch/atool
 app-arch/cfv
+app-arch/lz4
 app-arch/lzop
 app-arch/unrar
 app-arch/unzip
@@ -65,7 +66,6 @@ app-misc/rlwrap
 app-misc/tmux
 app-misc/toilet
 app-misc/ufetch
-app-office/ledger
 app-portage/diffmask
 app-portage/eix
 app-portage/elogv
@@ -117,9 +117,7 @@ dev-lang/luajit
 dev-lang/mono
 dev-lang/nasm
 dev-lang/ocaml
-dev-lang/python:2.7
-dev-lang/python:3.8
-dev-lang/ruby
+dev-lang/python
 dev-lang/tcc
 dev-libs/dmalloc
 dev-lisp/sbcl
@@ -222,7 +220,6 @@ net-analyzer/iftop
 net-analyzer/iptraf-ng
 net-analyzer/jnettop
 net-analyzer/macchanger
-net-analyzer/metasploit
 net-analyzer/mtr
 net-analyzer/net-snmp
 net-analyzer/netcat
@@ -265,9 +262,7 @@ net-p2p/mktorrent
 net-p2p/syncthing
 net-p2p/torrentinfo
 net-vpn/openvpn
-net-vpn/wireguard
 net-wireless/aircrack-ng
-ros-meta/desktop
 ros-meta/ros_base
 sci-calculators/units
 sci-visualization/gnuplot
@@ -315,13 +310,14 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/shake
 sys-kernel/buildkernel
-sys-kernel/ck-sources
 sys-kernel/genkernel-next
 sys-kernel/linux-firmware
+sys-kernel/pf-sources
 sys-power/acpi
 sys-power/acpitool
 sys-power/cpupower
 sys-power/powertop
+sys-power/upower
 sys-process/at
 sys-process/glances
 sys-process/htop
@@ -330,6 +326,7 @@ sys-process/lsof
 sys-process/memwatch
 sys-process/schedtool
 sys-process/systemd-cron
+virtual/wireguard
 www-client/qutebrowser
 www-misc/profile-sync-daemon
 x11-apps/mesa-progs

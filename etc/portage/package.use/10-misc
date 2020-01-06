@@ -19,7 +19,6 @@ app-i18n/mozc fcitx4
 app-laptop/laptop-mode-tools acpi
 app-laptop/thinkfan atasmart yaml
 app-misc/ca-certificates cacert
-app-misc/tmux -vim-syntax
 app-portage/eix sqlite
 app-portage/gemato blake2 bzip2 gpg lzma sha3
 app-portage/genup buildkernel

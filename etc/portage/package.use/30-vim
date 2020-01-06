@@ -1,2 +1,5 @@
 app-editors/neovim clipboard tui
 app-editors/vim X
+
+*/* vim-syntax
+app-misc/tmux -vim-syntax

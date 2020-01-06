@@ -1,8 +1,8 @@
+*/*::dotnet -nupkg
+*/*::dotnet -pkg-config
 */*::dotnet developer
 */*::dotnet gac
 */*::dotnet net40 net45 net46
-*/*::dotnet -nupkg
-*/*::dotnet -pkg-config
 dev-dotnet/buildtools symlink
 dev-dotnet/dotnetzip-semverd symlink
 dev-dotnet/msbuildtasks msbuild symlink
