@@ -17,13 +17,13 @@ app-crypt/gkeys                         PYTHON_TARGETS:           python3_6
 app-emulation/docker-compose            PYTHON_TARGETS:           python3_6
 app-emulation/qemu                      PYTHON_TARGETS:                     python3_7
 app-i18n/nkf                            PYTHON_TARGETS:           python3_6
-app-misc/asciinema                      PYTHON_TARGETS:           python3_6
+app-misc/asciinema                      PYTHON_TARGETS:                               python3_8
 app-misc/binwalk                        PYTHON_TARGETS:                               python3_8
 app-misc/grc                            PYTHON_TARGETS:           python3_6
-app-misc/pax-utils                      PYTHON_TARGETS:                     python3_7
+app-misc/pax-utils                      PYTHON_TARGETS:                               python3_8
 app-misc/ranger                         PYTHON_TARGETS:                     python3_7
 app-portage/*                           PYTHON_TARGETS:           python3_6
-app-shells/autojump                     PYTHON_TARGETS:                     python3_7
+app-shells/autojump                     PYTHON_TARGETS:           python3_6
 app-text/asciidoc                       PYTHON_TARGETS:                     python3_7
 dev-java/java-config                    PYTHON_TARGETS:           python3_6
 dev-java/javatoolkit                    PYTHON_TARGETS:                               python3_8
@@ -38,7 +38,7 @@ dev-util/gdbus-codegen                  PYTHON_TARGETS:                     pyth
 dev-util/glib-utils                     PYTHON_TARGETS:                     python3_7
 dev-util/gyp                            PYTHON_TARGETS: python2_7
 dev-util/lldb                           PYTHON_TARGETS:                     python3_7
-dev-util/meson                          PYTHON_TARGETS:                     python3_7
+dev-util/meson                          PYTHON_TARGETS:                               python3_8
 dev-util/rosdep                         PYTHON_TARGETS:           python3_6
 dev-util/rosinstall                     PYTHON_TARGETS:           python3_6
 dev-util/rosinstall_generator           PYTHON_TARGETS:           python3_6
@@ -76,7 +76,7 @@ x11-base/xcb-proto                      PYTHON_TARGETS:                         
 x11-misc/compton                        PYTHON_TARGETS:           python3_6
 
 app-arch/cfv                            PYTHON_SINGLE_TARGET: python2_7
-app-misc/pax-utils                      PYTHON_SINGLE_TARGET: python3_7
+app-misc/pax-utils                      PYTHON_SINGLE_TARGET: python3_8
 app-text/asciidoc                       PYTHON_SINGLE_TARGET: python3_7
 dev-util/gdbus-codegen                  PYTHON_SINGLE_TARGET: python3_7
 dev-util/glib-utils                     PYTHON_SINGLE_TARGET: python3_7
