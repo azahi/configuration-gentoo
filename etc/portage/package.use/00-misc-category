@@ -74,19 +74,10 @@ media-sound/* alsa pulseaudio
 media-sound/* flac mpg123 id3tag
 media-video/* X
 media-video/* alsa pulseaudio
-net-analyzer/* ipv6
-net-dns/* ipv6
-net-firewall/* ipv6
-net-ftp/* ipv6
-net-im/* ipv6
-net-libs/* ipv6
-net-misc/* ipv6
-sys-apps/* ipv6
 sys-apps/* kmod
 sys-apps/* split-usr
 sys-kernel/* experimental
 sys-libs/* clang
-sys-process/* ipv6
 virtual/* -*
 virtual/* ABI_X86: 64
 x11-libs/* X

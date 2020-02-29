@@ -3,7 +3,7 @@ app-admin/pass X git
 app-admin/pass-otp qrcode
 app-admin/sudo -sasl
 app-admin/sysstat lm-sensors
-app-admin/testdisk ewf ntfs
+app-admin/testdisk ntfs
 app-arch/libarchive bzip2
 app-arch/tar minimal
 app-arch/wimlib fuse iso ntfs -openssl yasm
@@ -25,7 +25,7 @@ app-portage/gemato blake2 bzip2 gpg lzma sha3
 app-portage/genup buildkernel
 app-portage/layman git sqlite sync-plugin-portage
 app-portage/portage-utils qmanifest qtegrity
-app-shells/zsh unicode
+app-shells/zsh pcre unicode
 app-text/asciidoc highlight
 app-text/aspell unicode L10N: de fr ru
 app-text/cmigemo unicode
@@ -98,7 +98,7 @@ net-analyzer/icinga2 console minimal plugins postgres
 net-analyzer/jnettop ncurses
 net-analyzer/monitoring-plugins dns fping postgres ssh
 net-analyzer/mtr ncurses
-net-analyzer/netdata postgres
+net-analyzer/netdata compression dbengine jsonc postgres
 net-analyzer/nmap ncat ndiff nping nse
 net-analyzer/tcpdump drop-root
 net-analyzer/vnstat gd
@@ -115,15 +115,14 @@ net-misc/electrum cli ncurses qt5
 net-misc/mosh client
 net-misc/networkmanager dhclient ncurses policykit resolvconf wifi
 net-misc/openssh hpn
+net-misc/rsync iconv
 net-vpn/openvpn down-root lzo plugins
-net-vpn/wireguard-modules module
 net-vpn/wireguard-tools wg-quick
 net-wireless/aircrack-ng experimental netlink
 net-wireless/wpa_supplicant dbus
 sci-visualization/gnuplot X libcaca libcerf gd qt5
 sys-apps/dbus X user-session
 sys-apps/debianutils installkernel
-sys-apps/dstat wifi
 sys-apps/firejail chroot contrib file-transfer globalcfg network private-home userns whitelist
 sys-apps/gptfdisk ncurses
 sys-apps/grep pcre
@@ -150,9 +149,10 @@ sys-devel/binutils cxx gold plugins
 sys-devel/clang default-compiler-rt default-libcxx static-analyzer xml
 sys-devel/clang-runtime compiler-rt libcxx sanitize
 sys-devel/gcc fortran graphite nptl
-sys-devel/gdb client lzma multitarget source-highlight xml
+sys-devel/gdb client lzma multitarget source-highlight xml xxhash
 sys-devel/llvm gold libffi ncurses xml
 sys-firmware/intel-microcode hostonly split-ucode
+sys-firmware/ipxe qemu
 sys-firmware/seabios binary seavgabios
 sys-fs/lvm2 thin
 sys-fs/ntfs3g ntfsprogs
@@ -169,7 +169,7 @@ sys-process/lsof rpc
 sys-process/procps kill modern-top ncurses unicode
 sys-process/systemd-cron cron-boot minutely yearly
 sys-process/tini static
-virtual/wireguard module tools
+virtual/wireguard tools
 www-client/firefox eme-free geckodriver hwaccel
 www-client/qutebrowser scripts
 www-client/w3m X imlib

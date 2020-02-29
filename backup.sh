@@ -9,3 +9,5 @@ BACKUPDIR="$PWD"
 
 cp --recursive --verbose /etc/portage/* "$BACKUPDIR/etc/portage/"
 cp --recursive --verbose /var/lib/portage/world "$BACKUPDIR/var/lib/portage/"
+
+zcat /proc/config.gz > .config

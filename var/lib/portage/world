@@ -13,7 +13,6 @@ app-admin/spectre-meltdown-checker
 app-admin/stow
 app-admin/sudo
 app-admin/sysstat
-app-admin/testdisk
 app-arch/atool
 app-arch/cfv
 app-arch/lz4
@@ -31,6 +30,7 @@ app-editors/emacs
 app-editors/neovim
 app-emulation/docker
 app-emulation/docker-compose
+app-emulation/docker-credential-helpers
 app-emulation/docker-machine
 app-emulation/qemu
 app-emulation/spim
@@ -51,6 +51,7 @@ app-misc/cmatrix
 app-misc/colordiff
 app-misc/detox
 app-misc/fdupes
+app-misc/figlet
 app-misc/grc
 app-misc/jot
 app-misc/jq
@@ -81,6 +82,7 @@ app-portage/repo-commit
 app-portage/repoman
 app-portage/showem
 app-portage/smart-live-rebuild
+app-shells/autojump
 app-shells/fzf
 app-shells/zsh
 app-text/antiword
@@ -115,9 +117,9 @@ dev-lang/ocaml
 dev-lang/python
 dev-libs/dmalloc
 dev-lisp/sbcl
-dev-python/neovim-python-client
 dev-python/pip
 dev-python/pylint
+dev-python/pynvim
 dev-python/virtualenv
 dev-ros/rosbash
 dev-ros/roscreate
@@ -145,8 +147,8 @@ dev-util/fatrace
 dev-util/glslang
 dev-util/golint
 dev-util/gource
+dev-util/include-what-you-use
 dev-util/ltrace
-dev-util/oprofile
 dev-util/perf
 dev-util/plan9port
 dev-util/radare2
@@ -243,9 +245,9 @@ net-dns/bind-tools
 net-dns/dnscrypt-proxy
 net-dns/dnsmasq
 net-dns/ldns-utils
-net-firewall/firehol
 net-ftp/lftp
 net-im/bitlbee
+net-irc/weechat
 net-libs/libnsl
 net-mail/isync
 net-mail/mu

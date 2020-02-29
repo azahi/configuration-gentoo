@@ -1,2 +1,3 @@
 dev-perl/* minimal
+net-irc/weechat perl
 x11-terms/rxvt-unicode perl

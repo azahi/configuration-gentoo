@@ -1,8 +1,0 @@
-app-arch/unrar *
-dev-util/plan9port *
-media-fonts/efont-unicode *
-media-fonts/kochi-substitute *
-net-analyzer/fping *
-sys-firmware/intel-microcode *
-sys-kernel/linux-firmware *
-x11-misc/xsnow *
