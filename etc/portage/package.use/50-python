@@ -1,16 +1,17 @@
 dev-lang/python ncurses sqlite xml
 
 dev-libs/boost python
+net-irc/weechat python
 sys-devel/gdb python
 
 dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql svg webchannel webengine widgets x11extras
+dev-python/pillow zlib
 dev-python/pyyaml libyaml
-net-irc/weechat python
 
 app-admin/ansible               PYTHON_TARGETS:           python3_7
 app-admin/pydf                  PYTHON_TARGETS:                     python3_8
 app-crypt/gkeys                 PYTHON_TARGETS: python3_6
-app-emulation/docker-compose    PYTHON_TARGETS: python3_6
+app-emulation/docker-compose    PYTHON_TARGETS:           python3_7
 app-emulation/qemu              PYTHON_TARGETS:           python3_7
 app-i18n/nkf                    PYTHON_TARGETS: python3_6
 app-misc/asciinema              PYTHON_TARGETS:                     python3_8
@@ -34,6 +35,7 @@ dev-util/rosinstall             PYTHON_TARGETS: python3_6
 dev-util/rosinstall_generator   PYTHON_TARGETS: python3_6
 dev-util/wstool                 PYTHON_TARGETS: python3_6
 dev-vcs/repo                    PYTHON_TARGETS:                     python3_8
+games-util/nml                  PYTHON_TARGETS:           python3_7
 media-libs/mutagen              PYTHON_TARGETS: python3_6
 media-sound/beets               PYTHON_TARGETS: python3_6
 media-sound/pulsemixer          PYTHON_TARGETS:                     python3_8
@@ -44,6 +46,7 @@ net-misc/httpie                 PYTHON_TARGETS:           python3_7
 net-misc/youtube-dl             PYTHON_TARGETS:                     python3_8
 net-p2p/torrentinfo             PYTHON_TARGETS:           python3_7
 ros-*/*                         PYTHON_TARGETS: python3_6
+sys-apps/dstat                  PYTHON_TARGETS:           python3_7
 sys-apps/portage                PYTHON_TARGETS: python3_6
 sys-process/glances             PYTHON_TARGETS:           python3_7
 sys-process/iotop               PYTHON_TARGETS:                     python3_8
@@ -51,16 +54,13 @@ www-client/qutebrowser          PYTHON_TARGETS:           python3_7
 x11-base/xcb-proto              PYTHON_TARGETS:                     python3_8
 x11-misc/compton                PYTHON_TARGETS: python3_6
 
-app-arch/cfv                    PYTHON_SINGLE_TARGET: python2_7
 app-text/asciidoc               PYTHON_SINGLE_TARGET: python3_7
 dev-util/gdbus-codegen          PYTHON_SINGLE_TARGET: python3_8
 dev-util/glib-utils             PYTHON_SINGLE_TARGET: python3_8
-dev-util/gyp                    PYTHON_SINGLE_TARGET: python2_7
 dev-util/include-what-you-use   PYTHON_SINGLE_TARGET: python3_6
-dev-util/lldb                   PYTHON_SINGLE_TARGET: python3_7
+dev-util/lldb                   PYTHON_SINGLE_TARGET: python3_8
 dev-util/rr                     PYTHON_SINGLE_TARGET: python3_8
 dev-util/systemtap              PYTHON_SINGLE_TARGET: python3_7
-net-analyzer/nmap               PYTHON_SINGLE_TARGET: python2_7
 net-irc/weechat                 PYTHON_SINGLE_TARGET: python3_6
 sys-devel/clang                 PYTHON_SINGLE_TARGET: python3_7
 sys-devel/gdb                   PYTHON_SINGLE_TARGET: python3_7
@@ -72,3 +72,7 @@ dev-python/cffi                 PYTHON_TARGETS: python2_7
 dev-python/ply                  PYTHON_TARGETS: python2_7
 dev-python/pycparser            PYTHON_TARGETS: python2_7
 dev-python/setuptools           PYTHON_TARGETS: python2_7
+
+app-arch/cfv                    PYTHON_SINGLE_TARGET: python2_7
+net-analyzer/nmap               PYTHON_SINGLE_TARGET: python2_7
+dev-util/gyp                    PYTHON_SINGLE_TARGET: python2_7

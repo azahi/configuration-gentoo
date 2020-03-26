@@ -62,10 +62,16 @@ dev-util/plan9port X truetype
 dev-util/strace unwind
 dev-util/systemtap -ssl
 dev-vcs/git blksha1 curl gpg highlight webdav
+games-roguelike/angband ncurses
+games-roguelike/stone-soup ncurses
+games-roguelike/tome X
+games-simulation/openttd openmedia
+games-strategy/freeciv qt5 sdl sound
 media-fonts/efont-unicode -X
 media-fonts/fontawesome ttf
 media-fonts/noto extra
 media-gfx/imagemagick X jpeg png
+media-gfx/imv X jpeg libnsgif png svg tiff
 media-gfx/sxiv gif jpeg png
 media-gfx/zbar imagemagick jpeg
 media-libs/freetype X bzip2 cleartype_hinting harfbuzz
@@ -109,12 +115,12 @@ net-im/bitlbee plugins purple
 net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger
 net-libs/gnutls tools
 net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc
-net-misc/curl http2 progress-meter
+net-misc/curl http2 kerberos progress-meter
 net-misc/dhcp client
 net-misc/electrum cli ncurses qt5
 net-misc/mosh client
 net-misc/networkmanager dhclient ncurses policykit resolvconf wifi
-net-misc/openssh hpn
+net-misc/openssh hpn kerberos
 net-misc/rsync iconv
 net-vpn/openvpn down-root lzo plugins
 net-vpn/wireguard-tools wg-quick
@@ -159,6 +165,7 @@ sys-fs/ntfs3g ntfsprogs
 sys-kernel/genkernel-next cryptsetup gpg
 sys-kernel/linux-firmware redistributable
 sys-libs/compiler-rt-sanitizers libfuzzer profile sanitize xray
+sys-libs/glibc gd nscd
 sys-libs/libcxx libcxxabi
 sys-libs/ncurses tinfo unicode
 sys-libs/timezone-data leaps-timezone

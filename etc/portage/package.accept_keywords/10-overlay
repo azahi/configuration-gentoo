@@ -6,7 +6,7 @@
 */*::lisp
 */*::python
 */*::qt
-*/*::ricerlay **
+*/*::ricerlay
 */*::ros-overlay
 */*::rust
 */*::sakaki-tools

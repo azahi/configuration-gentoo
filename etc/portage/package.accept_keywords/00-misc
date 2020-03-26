@@ -1,6 +1,5 @@
 app-crypt/keybase **
 app-editors/neovim **
-app-emulation/docker-cli **
 app-misc/no-more-secrets **
 sys-kernel/linux-firmware **
 sys-process/htop **

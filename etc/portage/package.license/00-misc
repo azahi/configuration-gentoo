@@ -1,5 +1,8 @@
 app-arch/unrar *
+app-i18n/skk-jisyo *
 dev-util/plan9port *
+games-misc/opensfx *
+games-roguelike/tome *
 media-fonts/efont-unicode *
 media-fonts/kochi-substitute *
 net-analyzer/fping *
