@@ -1,4 +1,3 @@
 app-editors/neovim luajit
-dev-db/redis luajit
 dev-lua/* luajit
-media-video/mpv lua luajit
+media-video/mpv lua luajit ### For scripts.

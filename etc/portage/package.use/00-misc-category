@@ -79,7 +79,7 @@ sys-apps/* kmod
 sys-apps/* split-usr
 sys-kernel/* experimental
 sys-libs/* clang
-virtual/* -*
+virtual/* -* ### We will explicitely define flags for each package from dependency graph.
 virtual/* ABI_X86: 64
 x11-libs/* X
 x11-libs/* xcb xkb

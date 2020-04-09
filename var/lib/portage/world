@@ -89,6 +89,7 @@ app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/antiword
 app-text/aspell
+app-text/cmigemo
 app-text/discount
 app-text/dos2unix
 app-text/editorconfig-core-c

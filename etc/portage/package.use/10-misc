@@ -66,7 +66,7 @@ games-roguelike/angband ncurses
 games-roguelike/stone-soup ncurses
 games-roguelike/tomenet X sound
 games-simulation/openttd openmedia zlib
-media-fonts/efont-unicode -X
+media-fonts/efont-unicode -X ### Broken?
 media-fonts/fontawesome ttf
 media-fonts/noto extra
 media-gfx/imagemagick X jpeg png
@@ -112,9 +112,9 @@ net-dns/dnsmasq dnssec
 net-firewall/iptables conntrack netlink nftables
 net-im/bitlbee plugins purple
 net-im/zoom pulseaudio
-net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger
+net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger ### We don't need this, we have ZNC running.
 net-libs/gnutls tools
-net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc
+net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc ### Breaks compilation.
 net-misc/curl http2 kerberos progress-meter
 net-misc/dhcp client
 net-misc/electrum cli ncurses qt5
