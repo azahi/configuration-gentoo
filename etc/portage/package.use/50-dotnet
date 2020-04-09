@@ -3,8 +3,4 @@
 */*::dotnet developer
 */*::dotnet gac
 */*::dotnet net40 net45 net46
-dev-dotnet/buildtools symlink
-dev-dotnet/dotnetzip-semverd symlink
-dev-dotnet/msbuildtasks msbuild symlink
 dev-lang/mono minimal
-dev-util/msbuild roslyn

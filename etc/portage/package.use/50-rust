@@ -1,0 +1,1 @@
+dev-lang/rust clippy miri nightly parallel-compiler rls rustfmt system-bootstrap

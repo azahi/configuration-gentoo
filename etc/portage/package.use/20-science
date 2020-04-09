@@ -3,7 +3,7 @@
 */* int64
 sci-libs/* szip
 sci-libs/gdal armadillo
-sci-libs/hdf5 -threads cxx
+sci-libs/hdf5 -threads cxx ### Broken with threading enabled.
 sci-libs/lapack lapacke
 sci-libs/lapack-reference xblas
 sci-libs/scipy sparse

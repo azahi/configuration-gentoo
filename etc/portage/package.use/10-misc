@@ -64,9 +64,8 @@ dev-util/systemtap -ssl
 dev-vcs/git blksha1 curl gpg highlight webdav
 games-roguelike/angband ncurses
 games-roguelike/stone-soup ncurses
-games-roguelike/tome X
-games-simulation/openttd openmedia
-games-strategy/freeciv qt5 sdl sound
+games-roguelike/tomenet X sound
+games-simulation/openttd openmedia zlib
 media-fonts/efont-unicode -X
 media-fonts/fontawesome ttf
 media-fonts/noto extra
@@ -96,7 +95,7 @@ media-sound/mpd libsamplerate sqlite zlib
 media-sound/opus-tools flac
 media-sound/pulseaudio alsa-plugin dbus glib realtime
 media-sound/sox mad
-media-video/ffmpeg X encode gpl hardcoded-tables libass mp3 network opengl opus theora vaapi vorbis vpx x264 xcb xvid zimg
+media-video/ffmpeg X encode gpl hardcoded-tables libass libv4l mp3 network opengl opus theora v4l vaapi vorbis vpx x264 xcb xvid zimg
 media-video/libva-utils drm
 media-video/mpv X cli jpeg libass opengl vaapi zlib
 net-analyzer/ettercap ncurses
@@ -112,6 +111,7 @@ net-analyzer/wireshark capinfos captype dumpcap http2 editcap libxml2 maxmindb m
 net-dns/dnsmasq dnssec
 net-firewall/iptables conntrack netlink nftables
 net-im/bitlbee plugins purple
+net-im/zoom pulseaudio
 net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger
 net-libs/gnutls tools
 net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc
@@ -169,7 +169,7 @@ sys-libs/glibc gd nscd
 sys-libs/libcxx libcxxabi
 sys-libs/ncurses tinfo unicode
 sys-libs/timezone-data leaps-timezone
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
 sys-power/powertop X
 sys-process/htop unicode
 sys-process/lsof rpc
@@ -177,7 +177,6 @@ sys-process/procps kill modern-top ncurses unicode
 sys-process/systemd-cron cron-boot minutely yearly
 sys-process/tini static
 virtual/wireguard tools
-www-client/firefox eme-free geckodriver hwaccel
 www-client/qutebrowser scripts
 www-client/w3m X imlib
 x11-apps/mesa-progs egl gles2

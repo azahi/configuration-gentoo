@@ -1,8 +1,8 @@
-dev-lang/ruby -jemalloc
+dev-lang/ruby -jemalloc ### Broken.
 
-dev-ruby/activerecord postgres
+dev-ruby/activerecord postgres ### Probably a metasplit dep.
 
 app-text/ronn           RUBY_TARGETS:        ruby26
 dev-ruby/*              RUBY_TARGETS: ruby24 ruby26 ruby27
 net-analyzer/metasploit RUBY_TARGETS: ruby24
-virtual/*               RUBY_TARGETS: ruby24 ruby26
+virtual/*               RUBY_TARGETS: ruby24 ruby26 ruby27

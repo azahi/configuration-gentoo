@@ -3,6 +3,7 @@ dev-qt/* X
 dev-qt/* alsa pulseaudio
 dev-qt/* dbus
 dev-qt/* gif jpeg png
+dev-qt/* gles2 gles2-only
 dev-qt/* qml
 dev-qt/* qt5
 dev-qt/* widgets
@@ -10,6 +11,7 @@ dev-qt/* xcb
 dev-qt/* xml
 dev-qt/qtcore icu
 dev-qt/qtdeclarative localstorage
+dev-qt/qtgui egl eglfs evdev
 dev-qt/qtnetwork libproxy networkmanager
-dev-qt/qtsql sqlite postgres
+dev-qt/qtsql sqlite
 dev-qt/qtwebengine jumbo-build

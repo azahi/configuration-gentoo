@@ -1,48 +1,21 @@
-app-editors/emacs* X
-app-editors/emacs* alsa sound
 app-editors/emacs* -athena -Xaw3d
-app-editors/emacs* dbus
-app-editors/emacs* dynamic-loading
 app-editors/emacs* -gconf -gsettings
 app-editors/emacs* -gfile
-app-editors/emacs* gif jpeg png -svg tiff xpm
 app-editors/emacs* -gpm
-app-editors/emacs* -gtk -gtk2 -xwidgets
+app-editors/emacs* -gtk -xwidgets
+app-editors/emacs* -gtk2
+app-editors/emacs* -json
+app-editors/emacs* -sound -alsa
+app-editors/emacs* -toolkit-scroll-bars
+app-editors/emacs* -zlib
+app-editors/emacs* X
+app-editors/emacs* dbus
+app-editors/emacs* dynamic-loading
+app-editors/emacs* gif jpeg png svg tiff xpm
 app-editors/emacs* imagemagick
 app-editors/emacs* inotify
-app-editors/emacs* -json
 app-editors/emacs* libxml2
-app-editors/emacs* -mailutils
+app-editors/emacs* m17n-lib
 app-editors/emacs* motif
-app-editors/emacs* wide-int
+app-editors/emacs* source
 app-editors/emacs* xft
-
-app-emacs/emacs-common-gentoo X
-
-app-admin/eselect                 emacs
-app-admin/pass                    -emacs
-app-crypt/ccrypt                  -emacs
-app-crypt/pinentry                -emacs
-app-emacs/ghc-mod                 -emacs
-app-emacs/hindent                 -emacs
-app-emacs/structured-haskell-mode -emacs
-app-i18n/mozc                     -emacs
-app-misc/gtypist                  -emacs
-app-office/ledger                 -emacs
-dev-haskell/hlint                 -emacs
-dev-lang/lua                      -emacs
-dev-libs/protobuf                 -emacs
-dev-python/cython                 -emacs
-dev-scheme/chicken                -emacs
-dev-util/cflow                    -emacs
-dev-util/cmake                    -emacs
-dev-util/cscope                   -emacs
-dev-util/desktop-file-utils       -emacs
-dev-util/ninja                    -emacs
-dev-vcs/git                       -emacs
-net-mail/mu                       emacs
-net-mail/notmuch                  emacs
-sys-devel/autoconf                -emacs
-sys-devel/gettext                 -emacs
-x11-wm/ratpoison                  emacs
-x11-wm/stumpwm                    emacs

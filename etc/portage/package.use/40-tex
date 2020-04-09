@@ -1,4 +1,4 @@
 app-text/texlive -cjk L10N: -de -fr -ja
-app-text/texlive png science truetype
+app-text/texlive truetype
 app-text/texlive-core -cjk L10N: -de -fr -ja
 dev-texlive/* -cjk L10N: -de -fr -ja

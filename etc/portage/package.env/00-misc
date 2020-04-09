@@ -1,23 +1,23 @@
 */*::haskell debug.conf
 */*::rust debug.conf no-network-sandbox.conf
-app-crypt/efitools safe-flags.conf
-app-crypt/gentoo-keys no-collision-protect.conf
+app-crypt/efitools safe-flags.conf ### Optimization breaks building.
+app-crypt/gentoo-keys no-collision-protect.conf ### Constant rewrite of changed files.
 app-emulation/wine no-tmpfs.conf
 dev-dotnet/dotnetcore-runtime no-sandbox.conf
 dev-dotnet/nuget no-network-sandbox.conf
 dev-lang/* no-ccache.conf no-tmpfs.conf
 dev-lang/mono no-sandbox.conf
 dev-lang/rust no-network-sandbox.conf
-dev-python/numpy no-ccache.conf
+dev-python/numpy no-ccache.conf ### NumPy is really jumpy towards ccache.
 dev-ruby/* no-sandbox.conf
 net-analyzer/metasploit no-sandbox.conf
 sci-libs/* no-ccache.conf
-sci-libs/scipy safe-flags.conf
+sci-libs/scipy safe-flags.conf ### Just in case.
 sci-libs/tensorflow no-tmpfs.conf
 sys-devel/clang no-tmpfs.conf
 sys-devel/gcc no-tmpfs.conf
 sys-devel/llvm no-tmpfs.conf
-sys-libs/glibc debug.conf installsources.conf no-builtin-strlen.conf
+sys-libs/glibc debug.conf installsources.conf no-builtin-strlen.conf ### Enable a proper developement environment.
 www-client/firefox no-tmpfs.conf
-x11-libs/motif no-pie.conf
+x11-libs/motif no-pie.conf ### PIE is kinda broken.
 x11-misc/slop no-multilib-strict.conf

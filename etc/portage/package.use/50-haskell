@@ -24,7 +24,6 @@ dev-haskell/semigroups binary transformers
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zlib non-blocking-ffi
 dev-lang/ghc elfutils
-dev-util/shellcheck doc hoogle hscolour profile
 x11-misc/xmobar alsa dbus inotify mpd timezone wifi conduit rtsopts weather xft
 x11-wm/xmonad no-autorepeat-keys
 x11-wm/xmonad-contrib xft

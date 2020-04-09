@@ -1,10 +1,10 @@
 dev-lang/python ncurses sqlite xml
 
 dev-libs/boost python
-net-irc/weechat python
-sys-devel/gdb python
+net-irc/weechat python ### For scripts.
+sys-devel/gdb python ### For pwndbg.
 
-dev-python/PyQt5 declarative gui multimedia network opengl printsupport sql svg webchannel webengine widgets x11extras
+dev-python/PyQt5 declarative gles2 gles2-only gui multimedia network opengl printsupport sql svg webchannel webengine widgets x11extras
 dev-python/pillow zlib
 dev-python/pyyaml libyaml
 
@@ -22,7 +22,7 @@ app-portage/*                   PYTHON_TARGETS: python3_6
 app-shells/autojump             PYTHON_TARGETS:           python3_7
 dev-java/java-config            PYTHON_TARGETS: python3_6
 dev-java/javatoolkit            PYTHON_TARGETS:                     python3_8
-dev-libs/boost                  PYTHON_TARGETS:           python3_7
+dev-libs/boost                  PYTHON_TARGETS:                     python3_8
 dev-libs/newt                   PYTHON_TARGETS:                     python3_8
 dev-python/*                    PYTHON_TARGETS: python3_6 python3_7 python3_8
 dev-ros/*                       PYTHON_TARGETS: python3_6
@@ -66,13 +66,14 @@ sys-devel/clang                 PYTHON_SINGLE_TARGET: python3_7
 sys-devel/gdb                   PYTHON_SINGLE_TARGET: python3_7
 sys-process/systemd-cron        PYTHON_SINGLE_TARGET: python3_7
 
-# Deprecating
+### Deprecating
 dev-python/certifi              PYTHON_TARGETS: python2_7
 dev-python/cffi                 PYTHON_TARGETS: python2_7
 dev-python/ply                  PYTHON_TARGETS: python2_7
 dev-python/pycparser            PYTHON_TARGETS: python2_7
 dev-python/setuptools           PYTHON_TARGETS: python2_7
 
+### Deprecating
 app-arch/cfv                    PYTHON_SINGLE_TARGET: python2_7
 net-analyzer/nmap               PYTHON_SINGLE_TARGET: python2_7
 dev-util/gyp                    PYTHON_SINGLE_TARGET: python2_7

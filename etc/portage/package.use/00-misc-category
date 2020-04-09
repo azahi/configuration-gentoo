@@ -9,6 +9,8 @@
 */* jemalloc tcmalloc
 */* jit
 */* kmem
+*/* lcms
+*/* libglvnd
 */* pam
 */* pcap
 */* pic pie seccomp
@@ -54,19 +56,18 @@
 */* system-zlib
 */* systemd
 */* systemtap
-*/* udev urandom
+*/* udev
+*/* urandom
 */* xinerama
-*/* zsh-completion
-app-arch/* unicode
 app-dicts/* L10N: de de-1901 en en_UK en_US fr ja ru
-app-dicts/* unicode nls
+app-dicts/* cjk nls unicode
 app-i18n/* L10N: de de-1901 en en_UK en_US fr ja ru
-app-i18n/* unicode nls
+app-i18n/* cjk nls unicode
 app-text/* L10N: de de-1901 en en_UK en_US fr ja ru
-app-text/* unicode nls cjk
+app-text/* cjk nls unicode
 media-fonts/* L10N: de de-1901 en en_UK en_US fr ja ru
 media-fonts/* X
-media-fonts/* nls unicode cjk
+media-fonts/* cjk nls unicode
 media-libs/* X
 media-libs/* alsa pulseaudio
 media-plugins/* alsa pulseaudio
