@@ -1,0 +1,4 @@
+app-text/texlive* -cjk L10N: -de -fr -ja
+dev-tex*/* -cjk L10N: -de -fr -ja
+
+app-text/texlive truetype

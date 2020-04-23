@@ -1,2 +1,1 @@
-dev-lang/go -gccgo
-sys-devel/gcc -go
+dev-lang/go -system-bootstrap

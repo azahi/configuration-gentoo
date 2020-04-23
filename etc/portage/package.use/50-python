@@ -1,8 +1,8 @@
 dev-lang/python ncurses sqlite xml
 
 dev-libs/boost python
-net-irc/weechat python ### For scripts.
-sys-devel/gdb python ### For pwndbg.
+net-irc/weechat python # For scripts.
+sys-devel/gdb python # For pwndbg.
 
 dev-python/PyQt5 declarative gles2 gles2-only gui multimedia network opengl printsupport sql svg webchannel webengine widgets x11extras
 dev-python/pillow zlib
@@ -54,7 +54,8 @@ www-client/qutebrowser          PYTHON_TARGETS:           python3_7
 x11-base/xcb-proto              PYTHON_TARGETS:                     python3_8
 x11-misc/compton                PYTHON_TARGETS: python3_6
 
-app-text/asciidoc               PYTHON_SINGLE_TARGET: python3_7
+app-misc/anki                   PYTHON_SINGLE_TARGET: python3_6
+app-text/asciidoc               PYTHON_SINGLE_TARGET: python3_8
 dev-util/gdbus-codegen          PYTHON_SINGLE_TARGET: python3_8
 dev-util/glib-utils             PYTHON_SINGLE_TARGET: python3_8
 dev-util/include-what-you-use   PYTHON_SINGLE_TARGET: python3_6
@@ -66,14 +67,12 @@ sys-devel/clang                 PYTHON_SINGLE_TARGET: python3_7
 sys-devel/gdb                   PYTHON_SINGLE_TARGET: python3_7
 sys-process/systemd-cron        PYTHON_SINGLE_TARGET: python3_7
 
-### Deprecating
+# Deprecating.
 dev-python/certifi              PYTHON_TARGETS: python2_7
 dev-python/cffi                 PYTHON_TARGETS: python2_7
 dev-python/ply                  PYTHON_TARGETS: python2_7
 dev-python/pycparser            PYTHON_TARGETS: python2_7
 dev-python/setuptools           PYTHON_TARGETS: python2_7
-
-### Deprecating
 app-arch/cfv                    PYTHON_SINGLE_TARGET: python2_7
-net-analyzer/nmap               PYTHON_SINGLE_TARGET: python2_7
 dev-util/gyp                    PYTHON_SINGLE_TARGET: python2_7
+net-analyzer/nmap               PYTHON_SINGLE_TARGET: python2_7

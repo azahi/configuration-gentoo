@@ -1,8 +1,10 @@
 */*::haskell doc hoogle hscolour
-*/*::haskell network network-uri
+*/*::haskell network network-uri network-3
 */*::haskell profile
 */*::haskell template-haskell
-app-text/pandoc derive-json-via-th
+
+dev-lang/ghc elfutils
+
 dev-haskell/aeson-pretty lib-only
 dev-haskell/bifunctors semigroups tagged
 dev-haskell/cabal-install native-dns
@@ -23,7 +25,8 @@ dev-haskell/semigroupoids comonad containers contravariant distributive tagged u
 dev-haskell/semigroups binary transformers
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zlib non-blocking-ffi
-dev-lang/ghc elfutils
+
+app-text/pandoc derive-json-via-th
 x11-misc/xmobar alsa dbus inotify mpd timezone wifi conduit rtsopts weather xft
 x11-wm/xmonad no-autorepeat-keys
 x11-wm/xmonad-contrib xft

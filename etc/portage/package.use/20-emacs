@@ -1,0 +1,24 @@
+# X.org.
+app-editors/emacs* X
+app-editors/emacs* xft
+
+# GUI framework.
+app-editors/emacs* -athena -Xaw3d
+app-editors/emacs* -gtk -xwidgets
+app-editors/emacs* motif
+
+# Images.
+app-editors/emacs* gif jpeg png svg tiff xpm
+app-editors/emacs* imagemagick
+
+# Misc.
+app-editors/emacs* dbus
+app-editors/emacs* dynamic-loading
+app-editors/emacs* inotify
+app-editors/emacs* libxml2
+app-editors/emacs* m17n-lib
+app-editors/emacs* source
+
+# We will not use per-package Emacs support because the code is usually quite
+# stale and it's much better to use per-user packages.
+*/* -emacs

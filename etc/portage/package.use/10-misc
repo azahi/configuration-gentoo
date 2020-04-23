@@ -4,9 +4,7 @@ app-admin/pass-otp qrcode
 app-admin/sudo -sasl
 app-admin/sysstat lm-sensors
 app-admin/testdisk ntfs
-app-arch/libarchive bzip2
 app-arch/tar minimal
-app-arch/wimlib fuse iso ntfs -openssl yasm
 app-crypt/gnupg bzip2 tools user-socket
 app-crypt/p11-kit asn1 trust
 app-crypt/pinentry ncurses qt5
@@ -14,7 +12,6 @@ app-emulation/docker container-init device-mapper overlay
 app-emulation/docker-credential-helpers pass
 app-emulation/qemu -gnutls -sasl sdl vhost-net virtfs
 app-forensics/aide curl e2fs mhash postgresql zlib
-app-forensics/libewf bfio fuse unicode uuid zlib
 app-i18n/fcitx X cairo dbus pango
 app-i18n/mozc fcitx4
 app-laptop/laptop-mode-tools acpi
@@ -27,69 +24,22 @@ app-portage/layman git sqlite sync-plugin-portage
 app-portage/portage-utils qmanifest qtegrity
 app-shells/zsh pcre unicode
 app-text/asciidoc highlight
-app-text/aspell unicode L10N: de fr ru
-app-text/cmigemo unicode
 app-text/discount minimal
 app-text/editorconfig-core-c cli
-app-text/hunspell L10N: de fr ru
 app-text/mupdf X
-app-text/poppler cairo utils
+app-text/poppler cairo jpeg png qt5 utils 
 app-text/xmlto text
-dev-db/postgresql icu llvm server
-dev-db/sqlite secure-delete tools
-dev-games/ogre poco
-dev-lang/spidermonkey minimal
-dev-libs/boost context icu nls tools
-dev-libs/elfutils static-libs utils
-dev-libs/glib dbus mime utils
-dev-libs/gmime crypt smime
-dev-libs/jemalloc lazy-lock prof stats xmalloc
-dev-libs/libpcre pcre16 unicode
-dev-libs/libpcre2 pcre16 unicode
-dev-libs/libsodium minimal
-dev-libs/libverto libev
-dev-libs/libxml2 icu
-dev-libs/nss cacert
-dev-libs/poco net -ssl
-dev-libs/xapian remote
-dev-util/dialog minimal
-dev-util/fatrace powertop
-dev-util/google-perftools minimal
-dev-util/ltrace unwind
-dev-util/perf clang unwind
-dev-util/pkgconfig internal-glib
-dev-util/plan9port X truetype
-dev-util/strace unwind
-dev-util/systemtap -ssl
-dev-vcs/git blksha1 curl gpg highlight webdav
 games-roguelike/angband ncurses
 games-roguelike/stone-soup ncurses
 games-roguelike/tomenet X sound
 games-simulation/openttd openmedia zlib
-media-fonts/efont-unicode -X ### Broken?
+media-fonts/efont-unicode -X # Broken?
 media-fonts/fontawesome ttf
 media-fonts/noto extra
 media-gfx/imagemagick X jpeg png
 media-gfx/imv X jpeg libnsgif png svg tiff
 media-gfx/sxiv gif jpeg png
 media-gfx/zbar imagemagick jpeg
-media-libs/freetype X bzip2 cleartype_hinting harfbuzz
-media-libs/gd fontconfig jpeg png truetype zlib
-media-libs/harfbuzz fontconfig glib graphite icu truetype
-media-libs/imlib2 X gif jpeg png
-media-libs/libass harfbuzz fontconfig
-media-libs/libepoxy X egl
-media-libs/libsdl X joystick sound video opengl
-media-libs/libsdl2 X joystick sound video opengl
-media-libs/libtheora encode
-media-libs/libvpx svc
-media-libs/libwebp experimental swap-16bit-csp
-media-libs/mesa classic dri3 egl gbm gles1 gles2
-media-libs/opencv contrib
-media-libs/sdl-image gif jpeg png tiff
-media-libs/sdl-mixer flac mad mp3 vorbis wav
-media-libs/sdl2-image gif jpeg png tiff
-media-libs/sdl2-mixer flac mad mp3 vorbis wav
 media-sound/alsa-utils libsamplerate ncurses
 media-sound/mpd libsamplerate sqlite zlib
 media-sound/opus-tools flac
@@ -112,10 +62,9 @@ net-dns/dnsmasq dnssec
 net-firewall/iptables conntrack netlink nftables
 net-im/bitlbee plugins purple
 net-im/zoom pulseaudio
-net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger ### We don't need this, we have ZNC running.
-net-libs/gnutls tools
-net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc ### Breaks compilation.
-net-misc/curl http2 kerberos progress-meter
+net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger # We don't need this, we have ZNC running.
+net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc # Breaks compilation.
+net-misc/curl http2 progress-meter
 net-misc/dhcp client
 net-misc/electrum cli ncurses qt5
 net-misc/mosh client
@@ -150,13 +99,6 @@ sys-apps/util-linux ncurses static-libs suid unicode
 sys-auth/pam_mktemp prevent-removal
 sys-auth/pambase minimal mktemp sha512
 sys-block/parted device-mapper
-sys-devel/bc forced-sandbox
-sys-devel/binutils cxx gold plugins
-sys-devel/clang default-compiler-rt default-libcxx static-analyzer xml
-sys-devel/clang-runtime compiler-rt libcxx sanitize
-sys-devel/gcc fortran graphite nptl
-sys-devel/gdb client lzma multitarget source-highlight xml xxhash
-sys-devel/llvm gold libffi ncurses xml
 sys-firmware/intel-microcode hostonly split-ucode
 sys-firmware/ipxe qemu
 sys-firmware/seabios binary seavgabios
@@ -164,12 +106,6 @@ sys-fs/lvm2 thin
 sys-fs/ntfs3g ntfsprogs
 sys-kernel/genkernel-next cryptsetup gpg
 sys-kernel/linux-firmware redistributable
-sys-libs/compiler-rt-sanitizers libfuzzer profile sanitize xray
-sys-libs/glibc gd nscd
-sys-libs/libcxx libcxxabi
-sys-libs/ncurses tinfo unicode
-sys-libs/timezone-data leaps-timezone
-sys-libs/zlib minizip static-libs
 sys-power/powertop X
 sys-process/htop unicode
 sys-process/lsof rpc
@@ -183,12 +119,6 @@ x11-apps/mesa-progs egl gles2
 x11-apps/xinit minimal
 x11-base/xorg-server glamor kdrive xephyr xnest xorg xvfb
 x11-drivers/xf86-video-intel dri dri3 sna xvmc
-x11-libs/cairo svg
-x11-libs/libXaw3d unicode xpm
-x11-libs/libXfont2 bzip2 truetype
-x11-libs/libva drm opengl utils
-x11-libs/libva-intel-driver drm
-x11-libs/motif jpeg png unicode xft
 x11-misc/compton opengl
 x11-misc/xlockmore crypt imagemagick truetype vtlock
 x11-misc/xss-lock man

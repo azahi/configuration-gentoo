@@ -17,6 +17,7 @@ app-arch/atool
 app-arch/cfv
 app-arch/lz4
 app-arch/lzop
+app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
 app-crypt/ccrypt
@@ -46,6 +47,7 @@ app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
 app-laptop/tpacpi-bat
+app-misc/anki
 app-misc/asciinema
 app-misc/binwalk
 app-misc/cmatrix
@@ -98,6 +100,7 @@ app-text/hunspell
 app-text/languagetool
 app-text/mupdf
 app-text/pandoc
+app-text/qolibri
 app-text/tree
 dev-cpp/gtest
 dev-db/postgresql
@@ -123,6 +126,7 @@ dev-lang/rust
 dev-lang/rust-bin
 dev-lang/tcc
 dev-libs/dmalloc
+dev-libs/eb
 dev-lisp/sbcl
 dev-python/pip
 dev-python/pylint
@@ -157,9 +161,9 @@ dev-util/glslang
 dev-util/golint
 dev-util/gource
 dev-util/include-what-you-use
+dev-util/lcov
 dev-util/ltrace
 dev-util/perf
-dev-util/plan9port
 dev-util/radare2
 dev-util/rosdep
 dev-util/rosinstall
@@ -175,6 +179,7 @@ dev-util/unconvert
 dev-util/uncrustify
 dev-util/valgrind
 dev-util/vbindiff
+dev-vcs/cli
 dev-vcs/git
 dev-vcs/hub
 dev-vcs/rcs
@@ -258,7 +263,6 @@ net-dns/dnsmasq
 net-dns/ldns-utils
 net-ftp/lftp
 net-im/bitlbee
-net-im/zoom
 net-irc/weechat
 net-libs/libnsl
 net-mail/isync
@@ -362,13 +366,18 @@ x11-base/xorg-server
 x11-misc/autocutsel
 x11-misc/compton
 x11-misc/hsetroot
+x11-misc/lsw
 x11-misc/n30f
+x11-misc/qcomicbook
 x11-misc/redshift
 x11-misc/sct
+x11-misc/sprop
+x11-misc/sselp
 x11-misc/sxlock
 x11-misc/unclutter-xfixes
 x11-misc/urxvt-perls
 x11-misc/wmctrl
+x11-misc/wmname
 x11-misc/xcape
 x11-misc/xclip
 x11-misc/xdg-user-dirs
@@ -380,6 +389,7 @@ x11-misc/xlockmore
 x11-misc/xmobar
 x11-misc/xsnow
 x11-misc/xss-lock
+x11-misc/xssstate
 x11-misc/xvfb-run
 x11-misc/xxkb
 x11-terms/rxvt-unicode

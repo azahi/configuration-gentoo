@@ -1,3 +1,4 @@
-app-editors/neovim luajit
 dev-lua/* luajit
-media-video/mpv lua luajit ### For scripts.
+
+app-editors/neovim luajit
+media-video/mpv lua luajit # For scripts.

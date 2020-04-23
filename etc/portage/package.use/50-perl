@@ -1,3 +1,4 @@
 dev-perl/* minimal
-net-irc/weechat perl ### For scripts.
+
+net-irc/weechat perl # For scripts.
 x11-terms/rxvt-unicode perl
