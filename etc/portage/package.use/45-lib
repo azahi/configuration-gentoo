@@ -1,5 +1,4 @@
 app-arch/libarchive bzip2
-dev-libs/boost context icu nls tools
 dev-libs/elfutils static-libs utils
 dev-libs/glib dbus mime utils
 dev-libs/gmime crypt smime
@@ -10,22 +9,18 @@ dev-libs/libsodium minimal
 dev-libs/libverto libev
 dev-libs/libxml2 icu
 dev-libs/nss cacert
-dev-libs/poco -ssl
-dev-libs/xapian remote
 media-libs/* flac mp3 ogg vorbis wav
 media-libs/* fontconfig truetype harfbuzz
 media-libs/* gif jpeg png tiff
 media-libs/freetype bzip2 cleartype_hinting
 media-libs/gd zlib
-media-libs/harfbuzz glib graphite icu
 media-libs/libepoxy egl
 media-libs/libsdl* joystick sound video opengl
 media-libs/libtheora encode
-media-libs/sdl*-mixer smpeg
 media-libs/libvpx svc
 media-libs/libwebp experimental swap-16bit-csp
 media-libs/mesa classic dri3 egl gbm gles1 gles2
-media-libs/opencv contrib
+media-libs/sdl*-mixer smpeg
 net-libs/gnutls tools
 sys-libs/ncurses unicode
 sys-libs/timezone-data leaps-timezone

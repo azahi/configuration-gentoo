@@ -70,7 +70,6 @@ app-portage/diffmask
 app-portage/eix
 app-portage/elogv
 app-portage/emtee
-app-portage/esearch
 app-portage/euses
 app-portage/fetchcommandwrapper
 app-portage/fquery
@@ -117,13 +116,10 @@ dev-haskell/stack
 dev-java/icedtea-bin
 dev-lang/ghc
 dev-lang/go
-dev-lang/luajit
 dev-lang/mono
 dev-lang/nasm
 dev-lang/ocaml
-dev-lang/python
 dev-lang/rust
-dev-lang/rust-bin
 dev-lang/tcc
 dev-libs/dmalloc
 dev-libs/eb

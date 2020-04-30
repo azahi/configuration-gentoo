@@ -6,6 +6,7 @@ app-admin/sysstat lm-sensors
 app-admin/testdisk ntfs
 app-arch/tar minimal
 app-crypt/gnupg bzip2 tools user-socket
+app-crypt/mit-krb5 keyutils openldap
 app-crypt/p11-kit asn1 trust
 app-crypt/pinentry ncurses qt5
 app-emulation/docker container-init device-mapper overlay

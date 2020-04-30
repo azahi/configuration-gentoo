@@ -4,5 +4,4 @@ app-misc/no-more-secrets **
 dev-util/racer **
 sys-kernel/linux-firmware ** ### Because I'm to lazy to edit savedconfig every time.
 sys-process/htop **
-www-client/qutebrowser **
 www-misc/profile-sync-daemon ** ### Upstream provides saner defaults.

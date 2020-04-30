@@ -1,1 +1,7 @@
 sys-devel/binutils cxx
+
+dev-libs/boost context icu nls tools
+dev-libs/poco net -ssl
+dev-libs/xapian remote
+media-libs/harfbuzz glib graphite icu
+media-libs/opencv contrib

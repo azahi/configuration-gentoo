@@ -1,8 +1,8 @@
 dev-lang/python ncurses sqlite xml
 
-dev-libs/boost python
-net-irc/weechat python # For scripts.
-sys-devel/gdb python # For pwndbg.
+dev-libs/libxml2 python
+net-irc/weechat python
+sys-devel/gdb python
 
 dev-python/PyQt5 declarative gles2 gles2-only gui multimedia network opengl printsupport sql svg webchannel webengine widgets x11extras
 dev-python/pillow zlib
@@ -12,43 +12,40 @@ app-admin/ansible               PYTHON_TARGETS:           python3_7
 app-admin/pydf                  PYTHON_TARGETS:                     python3_8
 app-crypt/gkeys                 PYTHON_TARGETS: python3_6
 app-emulation/docker-compose    PYTHON_TARGETS:           python3_7
-app-emulation/qemu              PYTHON_TARGETS:           python3_7
+app-emulation/qemu              PYTHON_TARGETS:                     python3_8
 app-i18n/nkf                    PYTHON_TARGETS: python3_6
 app-misc/asciinema              PYTHON_TARGETS:                     python3_8
 app-misc/binwalk                PYTHON_TARGETS:                     python3_8
 app-misc/grc                    PYTHON_TARGETS: python3_6
 app-misc/ranger                 PYTHON_TARGETS:                     python3_8
-app-portage/*                   PYTHON_TARGETS: python3_6
+app-portage/*                   PYTHON_TARGETS:                     python3_8
 app-shells/autojump             PYTHON_TARGETS:           python3_7
-dev-java/java-config            PYTHON_TARGETS: python3_6
+dev-java/java-config            PYTHON_TARGETS:                     python3_8
 dev-java/javatoolkit            PYTHON_TARGETS:                     python3_8
-dev-libs/boost                  PYTHON_TARGETS:                     python3_8
+dev-libs/libxml2                PYTHON_TARGETS:                     python3_8
 dev-libs/newt                   PYTHON_TARGETS:                     python3_8
 dev-python/*                    PYTHON_TARGETS: python3_6 python3_7 python3_8
 dev-ros/*                       PYTHON_TARGETS: python3_6
 dev-util/catkin                 PYTHON_TARGETS: python3_6
 dev-util/cppcheck               PYTHON_TARGETS:           python3_7
-dev-util/fatrace                PYTHON_TARGETS: python3_6
 dev-util/meson                  PYTHON_TARGETS:                     python3_8
 dev-util/rosdep                 PYTHON_TARGETS: python3_6
 dev-util/rosinstall             PYTHON_TARGETS: python3_6
 dev-util/rosinstall_generator   PYTHON_TARGETS: python3_6
 dev-util/wstool                 PYTHON_TARGETS: python3_6
 dev-vcs/repo                    PYTHON_TARGETS:                     python3_8
-games-util/nml                  PYTHON_TARGETS:           python3_7
-media-libs/mutagen              PYTHON_TARGETS: python3_6
+games-util/nml                  PYTHON_TARGETS:                     python3_8
+media-libs/mutagen              PYTHON_TARGETS:                     python3_8
 media-sound/beets               PYTHON_TARGETS: python3_6
 media-sound/pulsemixer          PYTHON_TARGETS:                     python3_8
-media-video/mpv                 PYTHON_TARGETS:           python3_7
-net-analyzer/gvm-tools          PYTHON_TARGETS: python3_6
+media-video/mpv                 PYTHON_TARGETS:                     python3_8
 net-analyzer/speedtest-cli      PYTHON_TARGETS:                     python3_8
 net-misc/httpie                 PYTHON_TARGETS:           python3_7
 net-misc/youtube-dl             PYTHON_TARGETS:                     python3_8
 net-p2p/torrentinfo             PYTHON_TARGETS:           python3_7
 ros-*/*                         PYTHON_TARGETS: python3_6
 sys-apps/dstat                  PYTHON_TARGETS:           python3_7
-sys-apps/portage                PYTHON_TARGETS: python3_6
-sys-process/glances             PYTHON_TARGETS:           python3_7
+sys-apps/portage                PYTHON_TARGETS:                     python3_8
 sys-process/iotop               PYTHON_TARGETS:                     python3_8
 www-client/qutebrowser          PYTHON_TARGETS:           python3_7
 x11-base/xcb-proto              PYTHON_TARGETS:                     python3_8
@@ -59,11 +56,12 @@ app-text/asciidoc               PYTHON_SINGLE_TARGET: python3_8
 dev-util/gdbus-codegen          PYTHON_SINGLE_TARGET: python3_8
 dev-util/glib-utils             PYTHON_SINGLE_TARGET: python3_8
 dev-util/include-what-you-use   PYTHON_SINGLE_TARGET: python3_6
+dev-util/itstool                PYTHON_SINGLE_TARGET: python3_8
 dev-util/lldb                   PYTHON_SINGLE_TARGET: python3_8
 dev-util/rr                     PYTHON_SINGLE_TARGET: python3_8
-dev-util/systemtap              PYTHON_SINGLE_TARGET: python3_7
+dev-util/systemtap              PYTHON_SINGLE_TARGET: python3_8
 net-irc/weechat                 PYTHON_SINGLE_TARGET: python3_6
-sys-devel/clang                 PYTHON_SINGLE_TARGET: python3_7
+sys-devel/clang                 PYTHON_SINGLE_TARGET: python3_8
 sys-devel/gdb                   PYTHON_SINGLE_TARGET: python3_7
 sys-process/systemd-cron        PYTHON_SINGLE_TARGET: python3_7
 
