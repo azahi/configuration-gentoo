@@ -3,6 +3,7 @@ dev-libs/elfutils static-libs utils
 dev-libs/glib dbus mime utils
 dev-libs/gmime crypt smime
 dev-libs/jemalloc lazy-lock prof stats xmalloc
+dev-libs/libgit2 gssapi ssh
 dev-libs/libpcre pcre16 unicode
 dev-libs/libpcre2 pcre16 unicode
 dev-libs/libsodium minimal

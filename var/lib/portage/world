@@ -23,7 +23,6 @@ app-arch/unzip
 app-crypt/ccrypt
 app-crypt/efitools
 app-crypt/gentoo-keys
-app-crypt/gkeys
 app-crypt/keybase
 app-crypt/mit-krb5
 app-dicts/wordnet

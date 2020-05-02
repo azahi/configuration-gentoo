@@ -11,7 +11,7 @@ app-crypt/p11-kit asn1 trust
 app-crypt/pinentry ncurses qt5
 app-emulation/docker container-init device-mapper overlay
 app-emulation/docker-credential-helpers pass
-app-emulation/qemu -gnutls -sasl sdl vhost-net virtfs
+app-emulation/qemu -gnutls io-uring -sasl sdl snappy vhost-net virtfs
 app-forensics/aide curl e2fs mhash postgresql zlib
 app-i18n/fcitx X cairo dbus pango
 app-i18n/mozc fcitx4
