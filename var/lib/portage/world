@@ -28,6 +28,7 @@ app-crypt/mit-krb5
 app-dicts/wordnet
 app-doc/eclass-manpages
 app-editors/emacs
+app-editors/emacs:26
 app-editors/neovim
 app-emulation/docker
 app-emulation/docker-compose

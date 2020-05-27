@@ -1,7 +1,7 @@
 app-admin/hddtemp network-cron
 app-admin/pass X git
 app-admin/pass-otp qrcode
-app-admin/sudo -sasl
+app-admin/sudo -sasl -ssl
 app-admin/sysstat lm-sensors
 app-admin/testdisk ntfs
 app-arch/tar minimal
@@ -19,7 +19,7 @@ app-laptop/laptop-mode-tools acpi
 app-laptop/thinkfan atasmart yaml
 app-misc/ca-certificates cacert
 app-portage/eix sqlite
-app-portage/gemato blake2 bzip2 gpg lzma sha3
+app-portage/gemato gpg
 app-portage/genup buildkernel
 app-portage/layman git sqlite sync-plugin-portage
 app-portage/portage-utils qmanifest qtegrity
@@ -42,6 +42,7 @@ media-gfx/imv X jpeg libnsgif png svg tiff
 media-gfx/sxiv gif jpeg png
 media-gfx/zbar imagemagick jpeg
 media-sound/alsa-utils libsamplerate ncurses
+media-sound/beets badfiles discogs embedart fetchart lastfm
 media-sound/mpd libsamplerate sqlite zlib
 media-sound/opus-tools flac
 media-sound/pulseaudio alsa-plugin dbus glib realtime

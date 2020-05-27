@@ -1,7 +1,9 @@
 app-crypt/keybase ** ### Non-live versions are not updated frequently enough. But damn that git repo is thicc af.
+app-editors/emacs **
 app-editors/neovim ** ### Upstream has LSP support.
 app-misc/no-more-secrets **
 dev-util/racer **
+media-sound/beets **
 sys-kernel/linux-firmware ** ### Because I'm to lazy to edit savedconfig every time.
 sys-process/htop **
 www-misc/profile-sync-daemon ** ### Upstream provides saner defaults.

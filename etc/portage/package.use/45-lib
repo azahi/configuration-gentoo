@@ -1,4 +1,4 @@
-app-arch/libarchive bzip2
+app-arch/libarchive bzip2 lz4 lzma lzo zlib zstd
 dev-libs/elfutils static-libs utils
 dev-libs/glib dbus mime utils
 dev-libs/gmime crypt smime
