@@ -9,14 +9,15 @@ dev-python/pillow zlib
 dev-python/pyyaml libyaml
 
 app-admin/ansible               PYTHON_TARGETS:           python3_7
+app-admin/eclean-kernel         PYTHON_TARGETS:                     python3_8
 app-admin/pydf                  PYTHON_TARGETS:                     python3_8
 app-crypt/gkeys                 PYTHON_TARGETS: python3_6
 app-emulation/docker-compose    PYTHON_TARGETS:           python3_7
 app-emulation/qemu              PYTHON_TARGETS:                     python3_8
-app-i18n/nkf                    PYTHON_TARGETS: python3_6
+app-i18n/nkf                    PYTHON_TARGETS:                     python3_8
 app-misc/asciinema              PYTHON_TARGETS:                     python3_8
 app-misc/binwalk                PYTHON_TARGETS:                     python3_8
-app-misc/grc                    PYTHON_TARGETS: python3_6
+app-misc/grc                    PYTHON_TARGETS:                     python3_8
 app-misc/ranger                 PYTHON_TARGETS:                     python3_8
 app-portage/*                   PYTHON_TARGETS:                     python3_8
 app-shells/autojump             PYTHON_TARGETS:           python3_7
@@ -44,15 +45,16 @@ net-misc/httpie                 PYTHON_TARGETS:           python3_7
 net-misc/youtube-dl             PYTHON_TARGETS:                     python3_8
 net-p2p/torrentinfo             PYTHON_TARGETS:           python3_7
 ros-*/*                         PYTHON_TARGETS: python3_6
-sys-apps/dstat                  PYTHON_TARGETS:           python3_7
+sys-apps/dstat                  PYTHON_TARGETS:                     python3_8
 sys-apps/portage                PYTHON_TARGETS:                     python3_8
 sys-process/iotop               PYTHON_TARGETS:                     python3_8
 www-client/qutebrowser          PYTHON_TARGETS:                     python3_8
 x11-base/xcb-proto              PYTHON_TARGETS:                     python3_8
-x11-misc/compton                PYTHON_TARGETS: python3_6
+x11-misc/compton                PYTHON_TARGETS:                     python3_8
 
-app-misc/anki                   PYTHON_SINGLE_TARGET: python3_6
+app-misc/anki                   PYTHON_SINGLE_TARGET: python3_8
 app-text/asciidoc               PYTHON_SINGLE_TARGET: python3_8
+dev-util/bear                   PYTHON_SINGLE_TARGET: python3_8
 dev-util/gdbus-codegen          PYTHON_SINGLE_TARGET: python3_8
 dev-util/glib-utils             PYTHON_SINGLE_TARGET: python3_8
 dev-util/include-what-you-use   PYTHON_SINGLE_TARGET: python3_8
@@ -63,11 +65,12 @@ dev-util/systemtap              PYTHON_SINGLE_TARGET: python3_8
 net-irc/weechat                 PYTHON_SINGLE_TARGET: python3_6
 sys-devel/clang                 PYTHON_SINGLE_TARGET: python3_8
 sys-devel/gdb                   PYTHON_SINGLE_TARGET: python3_7
-sys-process/systemd-cron        PYTHON_SINGLE_TARGET: python3_7
+sys-process/systemd-cron        PYTHON_SINGLE_TARGET: python3_8
 
 # Deprecating.
 dev-python/certifi              PYTHON_TARGETS: python2_7
 dev-python/cffi                 PYTHON_TARGETS: python2_7
+dev-python/greenlet             PYTHON_TARGETS: python2_7
 dev-python/ply                  PYTHON_TARGETS: python2_7
 dev-python/pycparser            PYTHON_TARGETS: python2_7
 dev-python/setuptools           PYTHON_TARGETS: python2_7

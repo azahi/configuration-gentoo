@@ -47,7 +47,7 @@ media-sound/mpd libsamplerate sqlite zlib
 media-sound/opus-tools flac
 media-sound/pulseaudio alsa-plugin dbus glib realtime
 media-sound/sox mad
-media-video/ffmpeg X encode gpl hardcoded-tables libass libv4l mp3 network opengl opus theora v4l vaapi vorbis vpx x264 xcb xvid zimg
+media-video/ffmpeg X encode gpl hardcoded-tables libass libv4l mp3 network opengl opus theora v4l vaapi vorbis vpx x264 xcb xvid zimg zlib
 media-video/libva-utils drm
 media-video/mpv X cli jpeg libass opengl vaapi zlib
 net-analyzer/ettercap ncurses
@@ -66,12 +66,12 @@ net-im/bitlbee plugins purple
 net-im/zoom pulseaudio
 net-irc/weechat alias buflist exec fset irc -logger scripts spell trigger # We don't need this, we have ZNC running.
 net-misc/aria2 bittorrent -jemalloc libuv libxml2 metalink ssh xmlrpc # Breaks compilation.
-net-misc/curl http2 progress-meter
+net-misc/curl http2 kerberos progress-meter ssh
 net-misc/dhcp client
 net-misc/electrum cli ncurses qt5
 net-misc/mosh client
 net-misc/networkmanager dhclient ncurses policykit resolvconf wifi
-net-misc/openssh hpn kerberos
+net-misc/openssh hpn kerberos scp
 net-misc/rsync iconv
 net-vpn/openvpn down-root lzo plugins
 net-vpn/wireguard-tools wg-quick

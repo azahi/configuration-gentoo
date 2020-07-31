@@ -23,6 +23,7 @@ dev-haskell/nats binary hashable
 dev-haskell/persistent-sqlite full-text-search have-usleep json1 uri-filenames
 dev-haskell/semigroupoids comonad containers contravariant distributive tagged unordered-containers
 dev-haskell/semigroups binary transformers
+dev-haskell/splitmix random
 dev-haskell/yaml no-examples no-exe no-unicode
 dev-haskell/zlib non-blocking-ffi
 

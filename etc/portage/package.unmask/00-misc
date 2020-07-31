@@ -1,1 +1,2 @@
 media-sound/beets # Fuck you Gentoo devs. What the fuck is this shit?
+sys-kernel/genkernel-next # Eternal Gentoo dev strikes again. This time he wants to break my bootloader because "maintainer is unresponsive."

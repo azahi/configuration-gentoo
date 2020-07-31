@@ -5,9 +5,7 @@
 #*/*::haskell
 #*/*::lisp
 #*/*::python
-*/*::qt ### Qt is a mess.
 #*/*::ricerlay
-#*/*::ros-overlay
 #*/*::rust
 #*/*::sakaki-tools
 
