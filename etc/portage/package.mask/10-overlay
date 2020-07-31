@@ -1,25 +1,11 @@
-#*/*::docker
 #*/*::dotnet
-#*/*::emacs
-#*/*::go-overlay
 #*/*::haskell
 #*/*::lisp
-#*/*::python
 #*/*::ricerlay
-#*/*::rust
 #*/*::sakaki-tools
 
-### Prioritize :haskell
+### Prioritize :haskell.
 app-text/pandoc::gentoo
 dev-haskell/*::gentoo
 dev-lang/ghc::gentoo
 dev-util/shellcheck::gentoo
-dev-vcs/darcs::gentoo
-x11-wm/xmonad*::gentoo
-
-### Guile is broken in ::lisp
-dev-scheme/guile::lisp
-
-### Do not bother me with "unstable" versions of Rust
-dev-lang/rust-bin::rust
-dev-lang/rust::rust

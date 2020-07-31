@@ -3,9 +3,7 @@
 Portage configuration (and more) from my Gentoo installation on Thinkpad T420.
 
 A lot of hours were sunk into configuring this mess to make myself a
-close-to-perfect system for daily use. The main two point behind this
-work were to make the system as minimal as possible and easy to use as
-a daily driver.
+close-to-perfect system for daily use.
 
 ## Installation
 
