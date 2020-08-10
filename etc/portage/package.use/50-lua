@@ -1,4 +1,0 @@
-dev-lua/* luajit
-
-app-editors/neovim luajit
-media-video/mpv lua luajit # For scripts.

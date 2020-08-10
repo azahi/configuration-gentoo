@@ -1,7 +1,0 @@
-sys-devel/binutils cxx
-
-dev-libs/boost bzip2 context icu lzma nls tools zlib zstd
-dev-libs/poco cppparser crypto file2pagecompiler json net pagecompiler util xml
-dev-libs/xapian inmemory remote
-media-libs/harfbuzz glib graphite icu
-sys-libs/* libunwind

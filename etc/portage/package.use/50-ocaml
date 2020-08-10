@@ -1,7 +1,0 @@
-*/* ocamlopt # Produce faster binaries.
-
-dev-lang/ocaml X flambda latex ncurses ocamlopt spacetime
-
-dev-ml/dose3 parmap
-dev-ml/lablgl glut
-dev-ml/lwt libev camlp4

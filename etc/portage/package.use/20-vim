@@ -1,6 +1,0 @@
-app-editors/neovim clipboard tui
-app-editors/vim X
-
-# We will disable vim-syntax to stop depending on app-editors/vim.
-# A more controllable solution is to use per-user syntax addons for Vim/NeoVim.
-*/* -vim-syntax
