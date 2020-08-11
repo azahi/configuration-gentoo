@@ -52,6 +52,7 @@ app-text/editorconfig-core-c
 app-text/highlight
 app-text/mupdf
 dev-haskell/cabal
+dev-haskell/cabal-install
 dev-lang/ghc
 dev-lang/go
 dev-lang/rust
@@ -80,7 +81,6 @@ dev-util/glslang
 dev-util/include-what-you-use
 dev-util/lldb
 dev-util/ltrace
-dev-util/rr
 dev-util/scanmem
 dev-util/splint
 dev-util/strace
@@ -123,7 +123,6 @@ net-mail/mu
 net-misc/aria2
 net-misc/curl
 net-misc/httpie
-net-misc/megatools
 net-misc/nemesis
 net-misc/openntpd
 net-misc/openssh
@@ -156,7 +155,8 @@ sys-kernel/buildkernel
 sys-kernel/linux-firmware
 sys-kernel/pf-sources
 sys-power/powertop
-sys-process/cronie
+sys-power/suspend
+sys-process/fcron
 sys-process/htop
 sys-process/lsof
 sys-process/parallel
