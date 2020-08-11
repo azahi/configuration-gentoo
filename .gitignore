@@ -1,6 +1,6 @@
 ._*
 bashrc
 bashrc.d
+ltoworkarounds.conf
 make.conf.lto
 make.conf.lto.defines
-package.cflags/ltoworkarounds.conf

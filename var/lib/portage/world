@@ -77,7 +77,6 @@ dev-util/ctags
 dev-util/cvise
 dev-util/debugedit
 dev-util/glslang
-dev-util/gource
 dev-util/include-what-you-use
 dev-util/lldb
 dev-util/ltrace
@@ -91,8 +90,8 @@ dev-util/valgrind
 dev-util/vbindiff
 dev-vcs/git
 dev-vcs/hub
+media-fonts/dejavu
 media-fonts/efont-unicode
-media-fonts/fontawesome
 media-fonts/mix-mplus-ipa
 media-fonts/siji
 media-gfx/maim
@@ -165,11 +164,13 @@ www-client/qutebrowser
 www-client/surfraw
 www-client/w3m
 x11-apps/setxkbmap
+x11-apps/xinit
 x11-apps/xlsfonts
 x11-apps/xrandr
 x11-apps/xset
 x11-apps/xsetroot
 x11-apps/xwininfo
+x11-base/xorg-server
 x11-libs/libXft
 x11-misc/autocutsel
 x11-misc/hsetroot
