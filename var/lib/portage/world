@@ -88,6 +88,7 @@ dev-util/systemtap
 dev-util/uncrustify
 dev-util/valgrind
 dev-util/vbindiff
+dev-util/wakatime
 dev-vcs/git
 dev-vcs/hub
 media-fonts/dejavu
@@ -179,3 +180,4 @@ x11-misc/picom
 x11-misc/unclutter-xfixes
 x11-misc/xbindkeys
 x11-misc/xclip
+x11-misc/xgetres
