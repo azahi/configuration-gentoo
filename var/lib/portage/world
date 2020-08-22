@@ -8,6 +8,7 @@ app-admin/syslog-ng
 app-arch/atool
 app-arch/lz4
 app-arch/lzop
+app-arch/unrar
 app-arch/zip
 app-crypt/efitools
 app-crypt/keybase
@@ -46,13 +47,15 @@ app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/autojump
 app-shells/fzf
+app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/cmigemo
 app-text/editorconfig-core-c
 app-text/highlight
+app-text/languagetool
 app-text/mupdf
-dev-haskell/cabal
 dev-haskell/cabal-install
+dev-java/icedtea-bin
 dev-lang/ghc
 dev-lang/go
 dev-lang/rust
@@ -81,7 +84,9 @@ dev-util/glslang
 dev-util/include-what-you-use
 dev-util/lldb
 dev-util/ltrace
+dev-util/radare2
 dev-util/scanmem
+dev-util/shellcheck-bin
 dev-util/splint
 dev-util/strace
 dev-util/systemtap
@@ -91,6 +96,7 @@ dev-util/vbindiff
 dev-util/wakatime
 dev-vcs/git
 dev-vcs/hub
+media-fonts/baekmuk-fonts
 media-fonts/dejavu
 media-fonts/efont-unicode
 media-fonts/mix-mplus-ipa
@@ -100,6 +106,7 @@ media-gfx/sxiv
 media-sound/beets
 media-sound/mpc
 media-sound/mpd
+media-sound/mpdscribble
 media-sound/ncmpcpp
 media-sound/sox
 media-sound/split2flac
@@ -110,12 +117,14 @@ net-analyzer/arpoison
 net-analyzer/fping
 net-analyzer/iftop
 net-analyzer/macchanger
+net-analyzer/netcat
 net-analyzer/ngrep
 net-analyzer/nmap
 net-analyzer/speedtest-cli
 net-analyzer/tcpdump
 net-analyzer/traceroute
 net-analyzer/wireshark
+net-dns/bind-tools
 net-dns/dnscrypt-proxy
 net-dns/dnsmasq
 net-ftp/lftp
@@ -149,8 +158,8 @@ sys-apps/ripgrep
 sys-boot/efibootmgr
 sys-config/ltoize
 sys-devel/gdb
-sys-devel/lld
 sys-firmware/intel-microcode
+sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-kernel/buildkernel
 sys-kernel/linux-firmware
@@ -172,8 +181,8 @@ x11-apps/xset
 x11-apps/xsetroot
 x11-apps/xwininfo
 x11-base/xorg-server
-x11-libs/libXft
 x11-misc/autocutsel
+x11-misc/colt
 x11-misc/hsetroot
 x11-misc/n30f
 x11-misc/picom
