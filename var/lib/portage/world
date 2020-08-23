@@ -165,7 +165,6 @@ sys-kernel/buildkernel
 sys-kernel/linux-firmware
 sys-kernel/pf-sources
 sys-power/powertop
-sys-power/suspend
 sys-process/fcron
 sys-process/htop
 sys-process/lsof
@@ -174,7 +173,7 @@ www-client/qutebrowser
 www-client/surfraw
 www-client/w3m
 x11-apps/setxkbmap
-x11-apps/xinit
+x11-apps/sx
 x11-apps/xlsfonts
 x11-apps/xrandr
 x11-apps/xset
