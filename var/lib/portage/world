@@ -16,6 +16,7 @@ app-crypt/efitools
 app-crypt/keybase
 app-doc/cppman
 app-doc/eclass-manpages
+app-doc/x86-manpages
 app-editors/emacs
 app-editors/neovim
 app-emulation/docker
