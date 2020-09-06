@@ -14,6 +14,7 @@ app-arch/unrar
 app-arch/zip
 app-crypt/efitools
 app-crypt/keybase
+app-doc/cppman
 app-doc/eclass-manpages
 app-editors/emacs
 app-editors/neovim
@@ -35,7 +36,6 @@ app-misc/rlwrap
 app-misc/tmux
 app-misc/ufetch
 app-portage/eix
-app-portage/fetchcommandwrapper
 app-portage/gentoolkit
 app-portage/hackport
 app-portage/nattka
@@ -52,6 +52,7 @@ app-text/hunspell
 app-text/languagetool
 app-text/mupdf
 app-text/texlive
+dev-dotnet/dotnetcore-sdk-bin
 dev-haskell/cabal-install
 dev-java/icedtea-bin
 dev-lang/ghc
@@ -100,6 +101,7 @@ dev-vcs/hub
 media-fonts/baekmuk-fonts
 media-fonts/dejavu
 media-fonts/efont-unicode
+media-fonts/iosevka
 media-fonts/mix-mplus-ipa
 media-fonts/siji
 media-gfx/maim
@@ -184,7 +186,6 @@ x11-apps/xrandr
 x11-apps/xset
 x11-apps/xsetroot
 x11-apps/xwininfo
-x11-base/xorg-server
 x11-misc/autocutsel
 x11-misc/colt
 x11-misc/hsetroot
