@@ -21,7 +21,6 @@ app-editors/emacs
 app-editors/neovim
 app-emulation/docker
 app-emulation/docker-compose
-app-emulation/docker-credential-helpers
 app-emulation/docker-machine
 app-emulation/qemu
 app-emulation/spim
@@ -42,6 +41,7 @@ app-portage/hackport
 app-portage/nattka
 app-portage/overlint
 app-portage/pfl
+app-portage/pram
 app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzf
@@ -148,7 +148,6 @@ net-misc/telnet-bsd
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/mktorrent
-net-p2p/syncthing
 net-p2p/torrentinfo
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
