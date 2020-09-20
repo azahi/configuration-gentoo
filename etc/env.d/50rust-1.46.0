@@ -1,0 +1,2 @@
+LDPATH="/usr/lib64/rust-1.46.0"
+MANPATH="/usr/share/rust-1.46.0/man"

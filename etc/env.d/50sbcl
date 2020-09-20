@@ -1,0 +1,2 @@
+SBCL_HOME=/usr/lib64/sbcl
+SBCL_SOURCE_ROOT=/usr/lib64/sbcl/src

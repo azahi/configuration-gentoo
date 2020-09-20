@@ -1,0 +1,30 @@
+# /etc/fstab: static file system information.
+#
+# noatime turns off atimes for increased performance (atimes normally aren't 
+# needed); notail increases performance of ReiserFS (at the expense of storage 
+# efficiency).  It's safe to drop the noatime options if you want and to 
+# switch between notail / tail freely.
+#
+# The root filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# See the manpage fstab(5) for more information.
+#
+
+# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+#
+# NOTE: Even though we list ext4 as the type here, it will work with ext2/ext3
+#       filesystems.  This just tells the kernel to use the ext4 driver.
+#
+# NOTE: You can use full paths to devices like /dev/sda3, but it is often
+#       more reliable to use filesystem labels or UUIDs. See your filesystem
+#       documentation for details on setting a label. To obtain the UUID, use
+#       the blkid(8) command.
+
+tmpfs                 /tmp          tmpfs   size=4G,noatime                                       0 0
+/dev/mapper/sg-swap   none          swap    defaults,noatime,discard                              0 0
+/dev/mapper/sg-root   /             ext4    defaults,noatime,discard,commit=60,errors=remount-ro  0 1
+/dev/mapper/sg-home   /home         ext4    defaults,noatime,discard,commit=60                    0 2
+UUID=7EB71F2C6C896775 /media/marisa ntfs-3g windows_names,uid=azahi,gid=azahi,dmask=022,fmask=133 0 0

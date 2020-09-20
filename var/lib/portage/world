@@ -27,7 +27,6 @@ app-eselect/eselect-repository
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
-app-misc/grc
 app-misc/jot
 app-misc/jq
 app-misc/rlwrap
@@ -44,6 +43,7 @@ app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzf
 app-shells/zsh
+app-shells/zsh-completions
 app-text/cmigemo
 app-text/editorconfig-core-c
 app-text/highlight
@@ -81,6 +81,7 @@ dev-util/bloaty
 dev-util/ccache
 dev-util/ccls
 dev-util/cflow
+dev-util/clion
 dev-util/cloc
 dev-util/cmake
 dev-util/cmocka
@@ -95,6 +96,7 @@ dev-util/glslang
 dev-util/include-what-you-use
 dev-util/lldb
 dev-util/ltrace
+dev-util/perf
 dev-util/radare2
 dev-util/scanmem
 dev-util/shellcheck-bin
