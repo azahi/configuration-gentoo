@@ -52,6 +52,9 @@ rm_check ./etc/portage/make.conf.lto.defines
 # X11
 dump_dir /etc/X11/xorg.conf.d
 
+# doas
+dump_file /etc/doas.conf
+
 # Kernel
 mkdir_check ./usr/src/linux
 zcat /proc/config.gz > ./usr/src/linux/.config

@@ -117,7 +117,6 @@ media-fonts/dejavu
 media-fonts/efont-unicode
 media-fonts/iosevka
 media-fonts/mix-mplus-ipa
-media-fonts/siji
 media-gfx/maim
 media-gfx/plantuml
 media-gfx/sxiv
@@ -126,8 +125,6 @@ media-sound/mpc
 media-sound/mpd
 media-sound/mpdscribble
 media-sound/ncmpcpp
-media-sound/sox
-media-sound/split2flac
 media-video/mediainfo
 media-video/mpv
 net-analyzer/arping
@@ -166,6 +163,7 @@ net-misc/youtube-dl
 net-p2p/mktorrent
 net-p2p/syncthing
 net-p2p/torrentinfo
+net-vpn/openvpn
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
 net-wireless/iwd
