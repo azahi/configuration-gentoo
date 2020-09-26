@@ -52,6 +52,10 @@ app-text/languagetool
 app-text/mupdf
 app-text/texlive
 app-text/xpdf
+dev-db/pgadmin4
+dev-db/postgresql
+dev-db/sqlite
+dev-db/sqlitebrowser
 dev-dotnet/dotnetcore-sdk-bin
 dev-haskell/cabal-install
 dev-java/icedtea-bin
@@ -153,12 +157,14 @@ net-misc/megatools
 net-misc/nemesis
 net-misc/openntpd
 net-misc/openssh
+net-misc/proxychains
 net-misc/socat
 net-misc/streamlink
 net-misc/telnet-bsd
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/mktorrent
+net-p2p/syncthing
 net-p2p/torrentinfo
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
@@ -191,6 +197,7 @@ sys-process/parallel
 www-client/qutebrowser
 www-client/surfraw
 www-client/w3m
+x11-apps/setxkbmap
 x11-apps/sx
 x11-apps/xprop
 x11-apps/xrandr
