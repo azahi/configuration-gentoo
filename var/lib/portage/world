@@ -61,7 +61,6 @@ dev-haskell/cabal-install
 dev-java/icedtea-bin
 dev-lang/ghc
 dev-lang/go
-dev-lang/rust
 dev-lang/yasm
 dev-libs/editline
 dev-lisp/sbcl
@@ -115,8 +114,10 @@ dev-vcs/hub
 media-fonts/baekmuk-fonts
 media-fonts/dejavu
 media-fonts/efont-unicode
-media-fonts/iosevka
-media-fonts/mix-mplus-ipa
+media-fonts/ja-ipafonts
+media-fonts/mplus-fonts
+media-fonts/mplus-outline-fonts
+media-fonts/source-pro
 media-gfx/maim
 media-gfx/plantuml
 media-gfx/sxiv
