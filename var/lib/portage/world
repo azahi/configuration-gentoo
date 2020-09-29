@@ -9,6 +9,7 @@ app-admin/stow
 app-admin/syslog-ng
 app-arch/lz4
 app-arch/lzop
+app-arch/pigz
 app-arch/unrar
 app-arch/zip
 app-crypt/efitools
@@ -32,6 +33,7 @@ app-misc/jq
 app-misc/rlwrap
 app-misc/tmux
 app-misc/ufetch
+app-office/ledger
 app-portage/eix
 app-portage/gentoolkit
 app-portage/hackport
