@@ -49,6 +49,9 @@ rm_check ./etc/portage/bashrc.d
 rm_check ./etc/portage/make.conf.lto
 rm_check ./etc/portage/make.conf.lto.defines
 
+# eclean
+dump_dir /etc/eclean
+
 # X11
 dump_dir /etc/X11/xorg.conf.d
 
@@ -81,6 +84,9 @@ dump_file /etc/laptop-mode/conf.d/intel-hda-powersave.conf
 dump_file /etc/laptop-mode/conf.d/intel-sata-powermgmt.conf
 dump_dir /etc/pm
 
+# UPower
+dump_dir /etc/UPower
+
 # syslog-ng
 mkdir_check ./etc/syslog-ng
 dump_file /etc/syslog-ng/syslog-ng.conf
@@ -89,12 +95,19 @@ dump_file /etc/syslog-ng/syslog-ng.conf
 dump_dir /etc/logrotate.d
 dump_file /etc/logrotate.conf
 
+# QEMU
+dump_dir /etc/qemu
+
 # Misc.
 dump_file /etc/buildkernel.conf
 dump_file /etc/dispatch-conf.conf
+dump_file /etc/filesystems
 dump_file /etc/fstab
 dump_file /etc/genkernel.conf
 dump_file /etc/hdparm.conf
 dump_file /etc/issue
 dump_file /etc/locale.gen
+dump_file /etc/login.defs
+dump_file /etc/ltrace.conf
+dump_file /etc/mail.rc
 dump_file /etc/thinkfan.conf

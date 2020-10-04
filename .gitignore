@@ -1,4 +1,5 @@
 ._*
+.keep*
 bashrc
 bashrc.d
 ltoworkarounds.conf

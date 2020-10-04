@@ -7,11 +7,10 @@ app-admin/pass
 app-admin/pwgen
 app-admin/stow
 app-admin/syslog-ng
-app-arch/lz4
-app-arch/lzop
 app-arch/pigz
 app-arch/unrar
-app-arch/zip
+app-arch/unzip
+app-cdr/cuetools
 app-crypt/efitools
 app-crypt/keybase
 app-doc/cppman
@@ -25,9 +24,12 @@ app-emulation/docker-machine
 app-emulation/qemu
 app-emulation/spim
 app-eselect/eselect-repository
+app-i18n/skkserv
+app-i18n/uim
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
+app-misc/anki
 app-misc/jot
 app-misc/jq
 app-misc/rlwrap
@@ -48,6 +50,7 @@ app-shells/zsh
 app-shells/zsh-completions
 app-text/cmigemo
 app-text/editorconfig-core-c
+app-text/grip
 app-text/highlight
 app-text/hunspell
 app-text/languagetool
@@ -67,7 +70,9 @@ dev-lang/yasm
 dev-libs/editline
 dev-lisp/sbcl
 dev-python/autopep8
+dev-python/black
 dev-python/mccabe
+dev-python/nose
 dev-python/pip
 dev-python/pipenv
 dev-python/pycodestyle
@@ -119,6 +124,7 @@ media-fonts/efont-unicode
 media-fonts/ja-ipafonts
 media-fonts/mplus-fonts
 media-fonts/mplus-outline-fonts
+media-fonts/source-han-sans
 media-fonts/source-pro
 media-gfx/maim
 media-gfx/plantuml
@@ -135,9 +141,9 @@ net-analyzer/arpoison
 net-analyzer/fping
 net-analyzer/iftop
 net-analyzer/macchanger
-net-analyzer/netcat
 net-analyzer/ngrep
 net-analyzer/nmap
+net-analyzer/openbsd-netcat
 net-analyzer/speedtest-cli
 net-analyzer/tcpdump
 net-analyzer/traceroute
@@ -146,12 +152,14 @@ net-dns/bind-tools
 net-dns/dnscrypt-proxy
 net-dns/dnsmasq
 net-ftp/lftp
+net-im/bitlbee
 net-libs/cppzmq
-net-libs/zeromq
+net-libs/czmq
 net-mail/isync
 net-mail/mu
 net-misc/aria2
 net-misc/curl
+net-misc/freerdp
 net-misc/httpie
 net-misc/megatools
 net-misc/nemesis
@@ -191,6 +199,7 @@ sys-kernel/buildkernel
 sys-kernel/linux-firmware
 sys-kernel/pf-sources
 sys-power/powertop
+sys-power/upower
 sys-process/fcron
 sys-process/htop
 sys-process/lsof
