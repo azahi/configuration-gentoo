@@ -48,6 +48,7 @@ app-portage/smart-live-rebuild
 app-shells/fzf
 app-shells/zsh
 app-shells/zsh-completions
+app-text/calibre
 app-text/cmigemo
 app-text/editorconfig-core-c
 app-text/grip
@@ -68,6 +69,7 @@ dev-lang/ghc
 dev-lang/go
 dev-lang/yasm
 dev-libs/editline
+dev-libs/msgpack
 dev-lisp/sbcl
 dev-python/autopep8
 dev-python/black
@@ -85,6 +87,8 @@ dev-python/rope
 dev-python/setuptools
 dev-python/virtualenv
 dev-python/yapf
+dev-scheme/chicken
+dev-tex/latexmk
 dev-util/bazel
 dev-util/bear
 dev-util/bloaty
@@ -107,6 +111,7 @@ dev-util/include-what-you-use
 dev-util/lldb
 dev-util/ltrace
 dev-util/perf
+dev-util/plan9port
 dev-util/radare2
 dev-util/scanmem
 dev-util/shellcheck-bin
@@ -118,6 +123,7 @@ dev-util/vbindiff
 dev-util/wakatime
 dev-vcs/git
 dev-vcs/hub
+dev-vcs/subversion
 media-fonts/baekmuk-fonts
 media-fonts/dejavu
 media-fonts/efont-unicode
@@ -129,6 +135,7 @@ media-fonts/source-pro
 media-gfx/maim
 media-gfx/plantuml
 media-gfx/sxiv
+media-libs/opencv
 media-sound/beets
 media-sound/mpc
 media-sound/mpd
@@ -188,12 +195,14 @@ sys-apps/mawk
 sys-apps/pmount
 sys-apps/ripgrep
 sys-apps/smartmontools
+sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
 sys-devel/gdb
 sys-devel/gef
 sys-firmware/intel-microcode
 sys-fs/dosfstools
+sys-fs/f2fs-tools
 sys-fs/ntfs3g
 sys-kernel/buildkernel
 sys-kernel/linux-firmware

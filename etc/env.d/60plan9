@@ -1,0 +1,4 @@
+PLAN9="/opt/plan9"
+PATH="/opt/plan9/bin"
+ROOTPATH="/opt/plan9/bin"
+MANPATH="/opt/plan9/man"
