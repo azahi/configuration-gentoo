@@ -1,0 +1,3 @@
+modules_wlan0="!iwconfig !wpa_supplicant !iw iwd"
+
+modules_eth0="!ifplugd netplug"

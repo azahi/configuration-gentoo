@@ -95,6 +95,7 @@ dev-util/bloaty
 dev-util/ccache
 dev-util/ccls
 dev-util/cflow
+dev-util/clazy
 dev-util/clion
 dev-util/cloc
 dev-util/cmake
@@ -132,6 +133,7 @@ media-fonts/mplus-fonts
 media-fonts/mplus-outline-fonts
 media-fonts/source-han-sans
 media-fonts/source-pro
+media-fonts/tewi-font
 media-gfx/maim
 media-gfx/plantuml
 media-gfx/sxiv
@@ -158,6 +160,7 @@ net-analyzer/wireshark
 net-dns/bind-tools
 net-dns/dnscrypt-proxy
 net-dns/dnsmasq
+net-fs/sshfs
 net-ftp/lftp
 net-im/bitlbee
 net-libs/cppzmq
@@ -192,6 +195,7 @@ sys-apps/fd
 sys-apps/hdparm
 sys-apps/lshw
 sys-apps/mawk
+sys-apps/netplug
 sys-apps/pmount
 sys-apps/ripgrep
 sys-apps/smartmontools
@@ -233,3 +237,5 @@ x11-misc/unclutter-xfixes
 x11-misc/xbindkeys
 x11-misc/xclip
 x11-misc/xgetres
+x11-misc/xssstate
+x11-terms/rxvt-unicode

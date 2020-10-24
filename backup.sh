@@ -67,8 +67,11 @@ dump_dir /etc/modprobe.d
 dump_dir /etc/modules-load.d
 
 # sysctl
-#dump_dir /etc/sysctl.d
-#dump_file /etc/sysctl.conf
+dump_dir /etc/sysctl.d
+dump_file /etc/sysctl.conf
+
+# conf.d
+dump_dir /etc/conf.d
 
 # env.d
 dump_dir /etc/env.d
