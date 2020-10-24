@@ -73,6 +73,10 @@ dump_file /etc/sysctl.conf
 # conf.d
 dump_dir /etc/conf.d
 
+# udev
+dump_dir /etc/udev/rules.d
+dump_file /etc/udev/udev.conf
+
 # env.d
 dump_dir /etc/env.d
 
