@@ -50,6 +50,7 @@ app-shells/zsh
 app-shells/zsh-completions
 app-text/calibre
 app-text/cmigemo
+app-text/convmv
 app-text/editorconfig-core-c
 app-text/grip
 app-text/highlight
@@ -125,12 +126,11 @@ dev-util/wakatime
 dev-vcs/git
 dev-vcs/hub
 dev-vcs/subversion
+mail-client/tmpmail
 media-fonts/baekmuk-fonts
 media-fonts/dejavu
 media-fonts/efont-unicode
 media-fonts/ja-ipafonts
-media-fonts/mplus-fonts
-media-fonts/mplus-outline-fonts
 media-fonts/source-han-sans
 media-fonts/source-pro
 media-fonts/tewi-font
