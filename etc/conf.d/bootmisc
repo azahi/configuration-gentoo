@@ -12,4 +12,4 @@ log_dmesg="YES"
 # Save the previous dmesg log to dmesg.old
 # This may be useful if you need to compare the current boot to the
 # previous one.
-previous_dmesg=no
+#previous_dmesg=no

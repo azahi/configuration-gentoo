@@ -1,1 +1,1 @@
-../../var/db/repos/gentoo/profiles/default/linux/amd64/17.1/no-multilib/hardened
+../../var/db/repos/gentoo/profiles/default/linux/amd64/17.1/no-multilib

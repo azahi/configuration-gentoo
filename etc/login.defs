@@ -9,12 +9,13 @@
 # Note: When PAM is used, some modules may enforce a minimum delay (e.g.
 #       pam_unix(8) enforces a 2s delay)
 #
-FAIL_DELAY		0
+FAIL_DELAY		3
 
 #
 # Enable logging and display of /var/log/faillog login(1) failure info.
 #
-FAILLOG_ENAB		yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#FAILLOG_ENAB		yes
 
 #
 # Enable display of unknown usernames when login(1) failures are recorded.
@@ -29,7 +30,8 @@ LOG_OK_LOGINS		no
 #
 # Enable logging and display of /var/log/lastlog login(1) time info.
 #
-LASTLOG_ENAB		yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#LASTLOG_ENAB		yes
 
 #
 # Limit the highest user ID number for which the lastlog entries should
@@ -46,22 +48,26 @@ LASTLOG_ENAB		yes
 # Disable if the shell startup files already check for mail
 # ("mailx -e" or equivalent).
 #
-MAIL_CHECK_ENAB no
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#MAIL_CHECK_ENAB		yes
 
 #
 # Enable additional checks upon password changes.
 #
-OBSCURE_CHECKS_ENAB	yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#OBSCURE_CHECKS_ENAB	yes
 
 #
 # Enable checking of time restrictions specified in /etc/porttime.
 #
-PORTTIME_CHECKS_ENAB	yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#PORTTIME_CHECKS_ENAB	yes
 
 #
 # Enable setting of ulimit, umask, and niceness from passwd(5) gecos field.
 #
-QUOTAS_ENAB		yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#QUOTAS_ENAB		yes
 
 #
 # Enable "syslog" logging of su(1) activity - in addition to sulog file logging.
@@ -75,7 +81,9 @@ SYSLOG_SG_ENAB		yes
 # a ":" delimited list of device names.  Root logins will be allowed only
 # from these devices.
 #
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
 #CONSOLE		/etc/securetty
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
 #CONSOLE	console:tty01:tty02:tty03:tty04
 
 #
@@ -87,7 +95,9 @@ SYSLOG_SG_ENAB		yes
 # If defined, ":" delimited list of "message of the day" files to
 # be displayed upon login.
 #
-MOTD_FILE	/etc/motd
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#MOTD_FILE	/etc/motd
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
 #MOTD_FILE	/etc/motd:/usr/lib/news/news-motd
 
 #
@@ -105,14 +115,16 @@ MOTD_FILE	/etc/motd
 # If defined, login(1) failures will be logged here in a utmp format.
 # last(1), when invoked as lastb(1), will read /var/log/btmp, so...
 #
-FTMP_FILE	/var/log/btmp
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#FTMP_FILE	/var/log/btmp
 
 #
 # If defined, name of file whose presence will inhibit non-root
 # logins.  The content of this file should be a message indicating
 # why logins are inhibited.
 #
-NOLOGINS_FILE	/etc/nologin
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#NOLOGINS_FILE	/etc/nologin
 
 #
 # If defined, the command name to display when running "su -".  For
@@ -150,8 +162,10 @@ HUSHLOGIN_FILE	.hushlogin
 # If defined, an HZ environment parameter spec.
 #
 # for Linux/x86
-ENV_HZ		HZ=100
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#ENV_HZ		HZ=100
 # For Linux/Alpha...
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
 #ENV_HZ		HZ=1024
 
 #
@@ -216,7 +230,8 @@ UMASK		022
 #
 PASS_MAX_DAYS	99999
 PASS_MIN_DAYS	0
-PASS_MIN_LEN	5
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#PASS_MIN_LEN	5
 PASS_WARN_AGE	7
 
 #
@@ -225,12 +240,14 @@ PASS_WARN_AGE	7
 # to uid 0 accounts.  If the group doesn't exist or is empty, no one
 # will be able to "su" to uid 0.
 #
-SU_WHEEL_ONLY yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#SU_WHEEL_ONLY	no
 
 #
 # If compiled with cracklib support, sets the path to the dictionaries
 #
-CRACKLIB_DICTPATH /usr/lib/cracklib_dict
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#CRACKLIB_DICTPATH	/var/cache/cracklib/cracklib_dict
 
 #
 # Min/max values for automatic uid selection in useradd(8)
@@ -261,7 +278,7 @@ SUB_GID_COUNT		    65536
 #
 # Max number of login(1) retries if password is bad
 #
-LOGIN_RETRIES 3
+LOGIN_RETRIES		5
 
 #
 # Max time in seconds for login(1)
@@ -271,12 +288,14 @@ LOGIN_TIMEOUT		60
 #
 # Maximum number of attempts to change password if rejected (too easy)
 #
-PASS_CHANGE_TRIES	5
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#PASS_CHANGE_TRIES	5
 
 #
 # Warn about weak passwords (but still allow them) if you are root.
 #
-PASS_ALWAYS_WARN	yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#PASS_ALWAYS_WARN	yes
 
 #
 # Number of significant characters in the password for crypt().
@@ -288,7 +307,8 @@ PASS_ALWAYS_WARN	yes
 #
 # Require password before chfn(1)/chsh(1) can make any changes.
 #
-CHFN_AUTH		yes
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#CHFN_AUTH		yes
 
 #
 # Which fields may be changed by regular users using chfn(1) - use
@@ -332,7 +352,7 @@ CHFN_RESTRICT		rwh
 # Note: If you use PAM, it is recommended to use a value consistent with
 # the PAM modules configuration.
 #
-ENCRYPT_METHOD SHA512
+#ENCRYPT_METHOD DES
 
 #
 # Only works if ENCRYPT_METHOD is set to SHA256 or SHA512.
@@ -386,7 +406,8 @@ DEFAULT_HOME	yes
 # If this file exists and is readable, login environment will be
 # read from it.  Every line should be in the form name=value.
 #
-ENVIRON_FILE	/etc/environment
+# NOTE: This setting should be configured via /etc/pam.d/ and not in this file.
+#ENVIRON_FILE	/etc/environment
 
 #
 # If defined, this command is run when removing a user.

@@ -83,6 +83,9 @@ dump_dir /etc/env.d
 # fontconfig
 dump_dir /etc/fonts/conf.d
 
+# DNSCrypt
+dump_dir /etc/dnscrypt-proxy
+
 # LMT
 mkdir_check ./etc/laptop-mode
 dump_file /etc/laptop-mode/laptop-mode.conf
@@ -102,9 +105,6 @@ dump_file /etc/syslog-ng/syslog-ng.conf
 dump_dir /etc/logrotate.d
 dump_file /etc/logrotate.conf
 
-# QEMU
-dump_dir /etc/qemu
-
 # Misc.
 dump_file /etc/buildkernel.conf
 dump_file /etc/dispatch-conf.conf
@@ -116,5 +116,4 @@ dump_file /etc/issue
 dump_file /etc/locale.gen
 dump_file /etc/login.defs
 dump_file /etc/ltrace.conf
-dump_file /etc/mail.rc
 dump_file /etc/thinkfan.conf
