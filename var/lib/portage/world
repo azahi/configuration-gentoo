@@ -3,6 +3,7 @@ app-admin/eclean-kernel
 app-admin/entr
 app-admin/logrotate
 app-admin/pass
+app-admin/pass-otp
 app-admin/pwgen
 app-admin/stow
 app-admin/syslog-ng
@@ -11,6 +12,7 @@ app-arch/unrar
 app-arch/unzip
 app-cdr/cuetools
 app-crypt/efitools
+app-crypt/mit-krb5
 app-doc/cppman
 app-doc/eclass-manpages
 app-doc/x86-manpages
@@ -27,11 +29,13 @@ app-laptop/thinkfan
 app-laptop/tp_smapi
 app-misc/anki
 app-misc/figlet
+app-misc/grc
 app-misc/jot
 app-misc/jq
 app-misc/nnn
 app-misc/rlwrap
 app-misc/tmux
+app-misc/toilet
 app-misc/ufetch
 app-office/ledger
 app-portage/eix
@@ -42,6 +46,7 @@ app-portage/pfl
 app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzy
+app-shells/zsh
 app-text/calibre
 app-text/cmigemo
 app-text/convmv
@@ -67,10 +72,6 @@ dev-haskell/hasktags
 dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hscolour
-dev-lang/ghc
-dev-lang/go
-dev-libs/editline
-dev-libs/msgpack
 dev-lisp/sbcl
 dev-python/autopep8
 dev-python/black
@@ -78,8 +79,6 @@ dev-python/mccabe
 dev-python/nose
 dev-python/pip
 dev-python/pipenv
-dev-python/pycodestyle
-dev-python/pydocstyle
 dev-python/pyflakes
 dev-python/pynvim
 dev-python/pytest
@@ -87,9 +86,7 @@ dev-python/python-language-server
 dev-python/rope
 dev-python/setuptools
 dev-python/virtualenv
-dev-python/yapf
 dev-scheme/chicken
-dev-tex/latexmk
 dev-util/bear
 dev-util/bloaty
 dev-util/ccache
@@ -108,8 +105,9 @@ dev-util/cutter
 dev-util/cvise
 dev-util/debugedit
 dev-util/glslang
-dev-util/include-what-you-use
+dev-util/howdoi
 dev-util/lldb
+dev-util/lsuio
 dev-util/ltrace
 dev-util/perf
 dev-util/plan9port
@@ -120,6 +118,7 @@ dev-util/strace
 dev-util/systemtap
 dev-util/valgrind
 dev-util/vbindiff
+dev-util/vtable-dumper
 dev-util/wakatime
 dev-vcs/git
 dev-vcs/hub
@@ -185,12 +184,15 @@ net-vpn/wireguard-tools
 net-wireless/aircrack-ng
 net-wireless/iwd
 sci-calculators/units
+sys-apps/earlyoom
+sys-apps/haveged
 sys-apps/hdparm
 sys-apps/lshw
 sys-apps/mawk
 sys-apps/netplug
 sys-apps/pmount
 sys-apps/smartmontools
+sys-apps/the_silver_searcher
 sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
