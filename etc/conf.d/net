@@ -1,5 +1,7 @@
-modules_wlan0="!iw !iwconfig !wpa_supplicant iwd"
-config_wlan0="udhcpc"
+modules="!dhcpcd"
+
+modules_wlan0="!wireless iwd"
+config_wlan0="dhcp"
 
 modules_eth0="!ifplugd netplug"
-config_eth0="udhcpc"
+config_eth0="dhcp"

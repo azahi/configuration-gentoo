@@ -35,7 +35,6 @@ app-misc/jq
 app-misc/nnn
 app-misc/rlwrap
 app-misc/tmux
-app-misc/toilet
 app-misc/ufetch
 app-office/ledger
 app-portage/eix
@@ -113,6 +112,7 @@ dev-util/perf
 dev-util/plan9port
 dev-util/radare2
 dev-util/scanmem
+dev-util/shellcheck
 dev-util/splint
 dev-util/strace
 dev-util/systemtap
@@ -148,6 +148,7 @@ net-analyzer/arpoison
 net-analyzer/fping
 net-analyzer/iftop
 net-analyzer/macchanger
+net-analyzer/mtr
 net-analyzer/ngrep
 net-analyzer/nmap
 net-analyzer/openbsd-netcat
@@ -185,14 +186,16 @@ net-wireless/aircrack-ng
 net-wireless/iwd
 sci-calculators/units
 sys-apps/earlyoom
-sys-apps/haveged
 sys-apps/hdparm
+sys-apps/lm-sensors
 sys-apps/lshw
 sys-apps/mawk
 sys-apps/netplug
 sys-apps/pmount
+sys-apps/pv
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
+sys-auth/seatd
 sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
