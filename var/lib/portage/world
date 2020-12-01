@@ -7,6 +7,8 @@ app-admin/pass-otp
 app-admin/pwgen
 app-admin/stow
 app-admin/syslog-ng
+app-arch/alien
+app-arch/dpkg
 app-arch/pigz
 app-arch/unrar
 app-arch/unzip
@@ -137,7 +139,12 @@ media-gfx/graphicsmagick
 media-gfx/maim
 media-gfx/plantuml
 media-gfx/sxiv
+media-libs/libsdl2
 media-libs/opencv
+media-libs/sdl2-gfx
+media-libs/sdl2-image
+media-libs/sdl2-net
+media-libs/sdl2-ttf
 media-sound/beets
 media-sound/mpc
 media-sound/mpd

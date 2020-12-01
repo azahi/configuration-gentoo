@@ -2,4 +2,4 @@ tmpfs                 /tmp          tmpfs   size=4G,noatime                     
 /dev/mapper/sg-swap   none          swap    defaults,noatime,discard                                                                                                                           0 0
 /dev/mapper/sg-root   /             f2fs    rw,active_logs=6,background_gc=on,no_heap,acl,user_xattr,inline_xattr,inline_data,inline_dentry,flush_merge,mode=adaptive,fsync_mode=posix,discard 0 0
 /dev/mapper/sg-home   /home         f2fs    rw,active_logs=6,background_gc=on,no_heap,acl,user_xattr,inline_xattr,inline_data,inline_dentry,flush_merge,mode=adaptive,fsync_mode=posix,discard 0 0
-UUID=7EB71F2C6C896775 /media/marisa ntfs-3g defaults,nls=utf8,umask=000,dmask=027,fmask=137,uid=1000,gid=1000,windows_names                                                                    0 0
+UUID=7EB71F2C6C896775 /media/marisa ntfs-3g defaults,nls=utf8,umask=000,dmask=022,fmask=133,uid=azahi,gid=azahi,windows_names                                                                  0 0

@@ -106,6 +106,7 @@ dump_dir /etc/logrotate.d
 dump_file /etc/logrotate.conf
 
 # Misc.
+dump_file /etc/mpd.conf
 dump_file /etc/buildkernel.conf
 dump_file /etc/dispatch-conf.conf
 dump_file /etc/filesystems
