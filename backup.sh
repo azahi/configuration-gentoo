@@ -83,9 +83,6 @@ dump_dir /etc/env.d
 # fontconfig
 dump_dir /etc/fonts/conf.d
 
-# DNSCrypt
-dump_dir /etc/dnscrypt-proxy
-
 # LMT
 mkdir_check ./etc/laptop-mode
 dump_file /etc/laptop-mode/laptop-mode.conf

@@ -167,7 +167,6 @@ net-analyzer/tcpdump
 net-analyzer/traceroute
 net-analyzer/wireshark
 net-dns/bind-tools
-net-dns/dnscrypt-proxy
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/lftp
