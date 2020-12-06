@@ -187,12 +187,14 @@ net-misc/streamlink
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/mktorrent
+net-p2p/syncthing
 net-p2p/torrentinfo
 net-vpn/openvpn
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
 net-wireless/iwd
 sci-calculators/units
+sci-visualization/gnuplot
 sys-apps/earlyoom
 sys-apps/fakeroot
 sys-apps/hdparm
@@ -208,9 +210,11 @@ sys-auth/seatd
 sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
+sys-devel/crossdev
 sys-devel/gdb
 sys-devel/gef
 sys-firmware/intel-microcode
+sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/f2fs-tools
 sys-fs/ntfs3g
