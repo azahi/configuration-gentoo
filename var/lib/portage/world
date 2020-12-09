@@ -9,6 +9,7 @@ app-admin/stow
 app-admin/syslog-ng
 app-arch/alien
 app-arch/dpkg
+app-arch/p7zip
 app-arch/pigz
 app-arch/unrar
 app-arch/unzip
@@ -48,7 +49,6 @@ app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzy
 app-shells/zsh
-app-text/calibre
 app-text/cmigemo
 app-text/convmv
 app-text/dos2unix
@@ -102,6 +102,7 @@ dev-util/clion
 dev-util/cloc
 dev-util/cmake
 dev-util/cmocka
+dev-util/conan
 dev-util/cppcheck
 dev-util/cproto
 dev-util/cscope
@@ -111,6 +112,7 @@ dev-util/cvise
 dev-util/debugedit
 dev-util/glslang
 dev-util/howdoi
+dev-util/include-what-you-use
 dev-util/lldb
 dev-util/lsuio
 dev-util/ltrace
@@ -206,7 +208,6 @@ sys-apps/pmount
 sys-apps/pv
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
-sys-auth/seatd
 sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
@@ -217,6 +218,8 @@ sys-firmware/intel-microcode
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/f2fs-tools
+sys-fs/fuse:0
+sys-fs/fuse:3
 sys-fs/ntfs3g
 sys-kernel/buildkernel
 sys-kernel/linux-firmware
