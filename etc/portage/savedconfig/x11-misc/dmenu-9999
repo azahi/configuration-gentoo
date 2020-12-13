@@ -1,0 +1,18 @@
+static int topbar = 1;
+static const char *fonts[] = {
+	"UW Ttyp0:pixelsize=14:style=Regular:antialias=false",
+	"Efont Biwidth:pixelsize=14:style=Regular:antialias=false",
+	"Efont Fixed:pixelsize=14:style=Regular:antialias=false",
+	"Misc Fixed:antialias=false",
+};
+static const char *prompt = NULL;
+static const char *colors[SchemeLast][2] = {
+	[SchemeNorm] = { "#c5c8c6", "#161719" },
+	[SchemeSel] = { "#161719", "#c5c8c6" },
+};
+
+static unsigned int lines = 0;
+
+static const char worddelimiters[] = " ";
+
+// vim: filetype=c

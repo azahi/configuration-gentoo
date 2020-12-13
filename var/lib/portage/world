@@ -17,6 +17,7 @@ app-cdr/cuetools
 app-crypt/efitools
 app-crypt/mit-krb5
 app-doc/cppman
+app-doc/doxygen
 app-doc/eclass-manpages
 app-doc/x86-manpages
 app-editors/emacs
@@ -61,6 +62,7 @@ app-text/mupdf
 app-text/pandoc
 app-text/pdfminer
 app-text/texlive
+app-text/urlview
 dev-db/pgadmin4
 dev-db/postgresql
 dev-db/sqlite
@@ -243,12 +245,14 @@ x11-apps/xset
 x11-apps/xsetroot
 x11-apps/xwininfo
 x11-misc/autocutsel
+x11-misc/dmenu
 x11-misc/hsetroot
 x11-misc/n30f
 x11-misc/picom
-x11-misc/unclutter-xfixes
+x11-misc/slock
+x11-misc/xbanish
 x11-misc/xbindkeys
 x11-misc/xclip
 x11-misc/xgetres
-x11-misc/xssstate
-x11-terms/rxvt-unicode
+x11-terms/st
+x11-wm/dwm
