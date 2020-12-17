@@ -60,7 +60,6 @@ app-text/hunspell
 app-text/languagetool
 app-text/mupdf
 app-text/pandoc
-app-text/pdfminer
 app-text/texlive
 app-text/urlview
 dev-db/pgadmin4
@@ -77,6 +76,7 @@ dev-haskell/hasktags
 dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hscolour
+dev-haskell/hunit
 dev-lisp/sbcl
 dev-python/autopep8
 dev-python/black
@@ -220,8 +220,6 @@ sys-firmware/intel-microcode
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/f2fs-tools
-sys-fs/fuse:0
-sys-fs/fuse:3
 sys-fs/ntfs3g
 sys-kernel/buildkernel
 sys-kernel/linux-firmware
