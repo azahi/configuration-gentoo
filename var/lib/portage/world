@@ -31,6 +31,7 @@ app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
 app-misc/anki
+app-misc/colordiff
 app-misc/figlet
 app-misc/grc
 app-misc/jot
@@ -111,6 +112,7 @@ dev-util/cscope
 dev-util/ctags
 dev-util/cutter
 dev-util/cvise
+dev-util/cwdiff
 dev-util/debugedit
 dev-util/glslang
 dev-util/howdoi

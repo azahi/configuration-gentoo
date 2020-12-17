@@ -11,3 +11,5 @@
 
 /* Time (in ms) to wait for additional bytes of an escape sequence */
 #define KEYTIMEOUT 25
+
+// vim: filetype=c

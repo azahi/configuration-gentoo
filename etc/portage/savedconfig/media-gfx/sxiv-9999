@@ -150,3 +150,5 @@ static const button_t buttons[] = {
 };
 
 #endif
+
+// vim: filetype=c
