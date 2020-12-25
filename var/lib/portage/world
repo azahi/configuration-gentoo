@@ -56,7 +56,6 @@ app-text/convmv
 app-text/dos2unix
 app-text/editorconfig-core-c
 app-text/grip
-app-text/highlight
 app-text/hunspell
 app-text/languagetool
 app-text/mupdf
@@ -223,6 +222,7 @@ sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/f2fs-tools
 sys-fs/ntfs3g
+sys-fs/squashfs-tools-ng
 sys-kernel/buildkernel
 sys-kernel/linux-firmware
 sys-kernel/pf-sources
