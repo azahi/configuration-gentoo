@@ -57,6 +57,7 @@ app-text/cmigemo
 app-text/convmv
 app-text/dos2unix
 app-text/editorconfig-core-c
+app-text/grip
 app-text/hunspell
 app-text/languagetool
 app-text/mupdf
