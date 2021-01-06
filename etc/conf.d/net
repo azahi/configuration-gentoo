@@ -1,4 +1,4 @@
-modules="!dhcpcd"
+modules="!dhclient !dhcpcd udhcpc"
 
 modules_wlan0="!wireless iwd"
 config_wlan0="dhcp"

@@ -4,6 +4,7 @@ app-admin/entr
 app-admin/logrotate
 app-admin/pass
 app-admin/pass-otp
+app-admin/perl-cleaner
 app-admin/pwgen
 app-admin/stow
 app-admin/syslog-ng
@@ -25,8 +26,10 @@ app-editors/neovim
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/docker-machine
+app-emulation/qemu
 app-eselect/eselect-repository
 app-i18n/skkserv
+app-i18n/uim
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
@@ -41,7 +44,6 @@ app-misc/rlwrap
 app-misc/tmux
 app-misc/toilet
 app-misc/ufetch
-app-office/ledger
 app-portage/eix
 app-portage/gentoolkit
 app-portage/hackport
@@ -55,7 +57,6 @@ app-text/cmigemo
 app-text/convmv
 app-text/dos2unix
 app-text/editorconfig-core-c
-app-text/grip
 app-text/hunspell
 app-text/languagetool
 app-text/mupdf
@@ -73,6 +74,7 @@ dev-haskell/doctest
 dev-haskell/haddock
 dev-haskell/happy
 dev-haskell/hasktags
+dev-haskell/hledger
 dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hscolour
@@ -122,6 +124,7 @@ dev-util/ltrace
 dev-util/perf
 dev-util/plan9port
 dev-util/radare2
+dev-util/rr
 dev-util/scanmem
 dev-util/shellcheck
 dev-util/splint
@@ -216,7 +219,6 @@ sys-boot/efibootmgr
 sys-config/ltoize
 sys-devel/crossdev
 sys-devel/gdb
-sys-devel/gef
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
 sys-fs/dosfstools
