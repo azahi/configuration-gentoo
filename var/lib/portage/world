@@ -29,6 +29,7 @@ app-emulation/docker-machine
 app-emulation/qemu
 app-eselect/eselect-repository
 app-i18n/skkserv
+app-i18n/translate-shell
 app-i18n/uim
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
@@ -130,7 +131,6 @@ dev-util/scanmem
 dev-util/shellcheck
 dev-util/splint
 dev-util/strace
-dev-util/systemtap
 dev-util/valgrind
 dev-util/vbindiff
 dev-util/vtable-dumper
@@ -174,7 +174,6 @@ net-analyzer/openbsd-netcat
 net-analyzer/speedtest-cli
 net-analyzer/tcpdump
 net-analyzer/traceroute
-net-analyzer/wireshark
 net-dns/bind-tools
 net-firewall/ufw
 net-fs/nfs-utils
