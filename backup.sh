@@ -103,15 +103,16 @@ dump_dir /etc/logrotate.d
 dump_file /etc/logrotate.conf
 
 # Misc.
-dump_file /etc/mpd.conf
 dump_file /etc/buildkernel.conf
 dump_file /etc/dispatch-conf.conf
 dump_file /etc/filesystems
 dump_file /etc/fstab
+dump_file /etc/fuse.conf
 dump_file /etc/genkernel.conf
 dump_file /etc/hdparm.conf
 dump_file /etc/issue
 dump_file /etc/locale.gen
 dump_file /etc/login.defs
 dump_file /etc/ltrace.conf
+dump_file /etc/mpd.conf
 dump_file /etc/thinkfan.conf
