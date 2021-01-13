@@ -16,7 +16,6 @@ app-arch/unrar
 app-arch/unzip
 app-cdr/cuetools
 app-crypt/efitools
-app-crypt/mit-krb5
 app-doc/cppman
 app-doc/doxygen
 app-doc/eclass-manpages
