@@ -28,9 +28,7 @@ app-emulation/docker-compose
 app-emulation/docker-machine
 app-emulation/qemu
 app-eselect/eselect-repository
-app-i18n/skkserv
 app-i18n/translate-shell
-app-i18n/uim
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
@@ -54,7 +52,6 @@ app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzy
 app-shells/zsh
-app-text/cmigemo
 app-text/convmv
 app-text/dos2unix
 app-text/editorconfig-core-c
