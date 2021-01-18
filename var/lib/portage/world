@@ -148,6 +148,7 @@ media-libs/libsdl2
 media-libs/opencv
 media-libs/sdl2-gfx
 media-libs/sdl2-image
+media-libs/sdl2-mixer
 media-libs/sdl2-net
 media-libs/sdl2-ttf
 media-sound/beets
@@ -177,6 +178,7 @@ net-fs/sshfs
 net-ftp/lftp
 net-libs/cppzmq
 net-libs/czmq
+net-libs/rabbitmq-c
 net-mail/isync
 net-mail/mu
 net-misc/aria2
@@ -185,10 +187,11 @@ net-misc/freerdp
 net-misc/httpie
 net-misc/megatools
 net-misc/nemesis
-net-misc/openntpd
+net-misc/ntp
 net-misc/openssh
 net-misc/socat
 net-misc/streamlink
+net-misc/telnet-bsd
 net-misc/whois
 net-misc/youtube-dl
 net-p2p/mktorrent
@@ -229,6 +232,7 @@ sys-power/powertop
 sys-power/upower
 sys-process/fcron
 sys-process/htop
+sys-process/iotop-c
 sys-process/lsof
 sys-process/parallel
 sys-process/uksmd
