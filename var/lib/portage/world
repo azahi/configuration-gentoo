@@ -1,6 +1,7 @@
 app-admin/doas
 app-admin/eclean-kernel
 app-admin/entr
+app-admin/haskell-updater
 app-admin/logrotate
 app-admin/pass
 app-admin/pass-otp
@@ -51,6 +52,7 @@ app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/fzy
 app-shells/zsh
+app-text/calibre
 app-text/convmv
 app-text/dos2unix
 app-text/editorconfig-core-c
