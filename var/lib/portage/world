@@ -221,6 +221,7 @@ sys-boot/efibootmgr
 sys-config/ltoize
 sys-devel/crossdev
 sys-devel/gdb
+sys-devel/gef
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
 sys-fs/dosfstools
