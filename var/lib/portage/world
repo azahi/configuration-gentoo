@@ -50,6 +50,7 @@ app-portage/overlint
 app-portage/pfl
 app-portage/repoman
 app-portage/smart-live-rebuild
+app-shells/fish
 app-shells/fzy
 app-shells/zsh
 app-text/calibre
@@ -62,7 +63,6 @@ app-text/languagetool
 app-text/mupdf
 app-text/pandoc
 app-text/texlive
-app-text/urlview
 dev-db/pgadmin4
 dev-db/postgresql
 dev-db/sqlite
@@ -228,6 +228,7 @@ sys-fs/dosfstools
 sys-fs/f2fs-tools
 sys-fs/ntfs3g
 sys-fs/squashfs-tools-ng
+sys-fs/sysfsutils
 sys-kernel/buildkernel
 sys-kernel/linux-firmware
 sys-kernel/pf-sources

@@ -116,3 +116,4 @@ dump_file /etc/login.defs
 dump_file /etc/ltrace.conf
 dump_file /etc/mpd.conf
 dump_file /etc/thinkfan.conf
+dump_file /etc/timezone
