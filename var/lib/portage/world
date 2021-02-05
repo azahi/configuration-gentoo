@@ -13,10 +13,10 @@ app-arch/alien
 app-arch/dpkg
 app-arch/p7zip
 app-arch/pigz
+app-arch/rpm
 app-arch/unrar
 app-arch/unzip
 app-cdr/cuetools
-app-crypt/efitools
 app-doc/cppman
 app-doc/doxygen
 app-doc/eclass-manpages
@@ -24,6 +24,7 @@ app-doc/x86-manpages
 app-editors/emacs
 app-editors/neovim
 app-emulation/docker
+app-emulation/docker-cli
 app-emulation/docker-compose
 app-emulation/docker-machine
 app-emulation/qemu
@@ -34,7 +35,6 @@ app-laptop/thinkfan
 app-laptop/tp_smapi
 app-misc/anki
 app-misc/colordiff
-app-misc/figlet
 app-misc/grc
 app-misc/jot
 app-misc/jq
@@ -63,10 +63,8 @@ app-text/languagetool
 app-text/mupdf
 app-text/pandoc
 app-text/texlive
-dev-db/pgadmin4
 dev-db/postgresql
 dev-db/sqlite
-dev-db/sqlitebrowser
 dev-dotnet/dotnetcore-sdk-bin
 dev-haskell/alex
 dev-haskell/cabal-install
@@ -75,10 +73,10 @@ dev-haskell/haddock
 dev-haskell/happy
 dev-haskell/hasktags
 dev-haskell/hledger
-dev-haskell/hoogle
 dev-haskell/hpack
 dev-haskell/hscolour
 dev-haskell/hunit
+dev-libs/dmalloc
 dev-lisp/sbcl
 dev-python/autopep8
 dev-python/black
@@ -106,7 +104,6 @@ dev-util/clion
 dev-util/cloc
 dev-util/cmake
 dev-util/cmocka
-dev-util/conan
 dev-util/cppcheck
 dev-util/cproto
 dev-util/cscope
@@ -116,7 +113,6 @@ dev-util/cvise
 dev-util/cwdiff
 dev-util/debugedit
 dev-util/glslang
-dev-util/howdoi
 dev-util/include-what-you-use
 dev-util/lldb
 dev-util/lsuio
@@ -146,6 +142,9 @@ media-gfx/graphicsmagick
 media-gfx/maim
 media-gfx/plantuml
 media-gfx/sxiv
+media-libs/assimp
+media-libs/freeglut
+media-libs/glfw
 media-libs/libsdl2
 media-libs/opencv
 media-libs/sdl2-gfx
@@ -186,7 +185,6 @@ net-mail/mu
 net-misc/aria2
 net-misc/curl
 net-misc/freerdp
-net-misc/httpie
 net-misc/megatools
 net-misc/nemesis
 net-misc/ntp
@@ -199,6 +197,7 @@ net-misc/youtube-dl
 net-p2p/mktorrent
 net-p2p/syncthing
 net-p2p/torrentinfo
+net-proxy/torsocks
 net-vpn/openvpn
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
@@ -222,6 +221,7 @@ sys-config/ltoize
 sys-devel/crossdev
 sys-devel/gdb
 sys-devel/gef
+sys-devel/remake
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
 sys-fs/dosfstools
@@ -253,7 +253,6 @@ x11-apps/xsetroot
 x11-apps/xwininfo
 x11-misc/autocutsel
 x11-misc/dmenu
-x11-misc/n30f
 x11-misc/slock
 x11-misc/xbanish
 x11-misc/xbindkeys
