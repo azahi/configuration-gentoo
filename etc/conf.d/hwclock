@@ -9,7 +9,7 @@ clock="UTC"
 # commented out.
 # However, you can set this to "NO" if you are running a modern kernel
 # and using NTP to synchronize your system clock.
-#clock_hctosys="YES"
+clock_hctosys="YES"
 
 # If you do not want to set the hardware clock to the current system
 # time (software clock) during shutdown, set this to no.

@@ -1,0 +1,9 @@
+#  /etc/conf.d/adjtimex - configuration file for adjtimex(8)
+#
+#  you may adjust these values manually or by calling /usr/sbin/adjtimexconfig
+#
+#  This file is sourced by /etc/init.d/adjtimex
+#
+TICK=9998
+FREQ=1336887
+

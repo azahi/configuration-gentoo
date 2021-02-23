@@ -63,8 +63,10 @@ app-text/languagetool
 app-text/mupdf
 app-text/pandoc
 app-text/texlive
+dev-cpp/catch
 dev-db/postgresql
 dev-db/sqlite
+dev-db/sqlmap
 dev-dotnet/dotnetcore-sdk-bin
 dev-haskell/alex
 dev-haskell/cabal-install
@@ -96,6 +98,7 @@ dev-tex/latexdiff
 dev-tex/latexmk
 dev-util/bear
 dev-util/bloaty
+dev-util/bsdiff
 dev-util/ccache
 dev-util/ccls
 dev-util/cflow
@@ -104,6 +107,7 @@ dev-util/clion
 dev-util/cloc
 dev-util/cmake
 dev-util/cmocka
+dev-util/conan
 dev-util/cppcheck
 dev-util/cproto
 dev-util/cscope
@@ -162,6 +166,7 @@ media-video/mpv
 media-video/subliminal
 net-analyzer/arping
 net-analyzer/arpoison
+net-analyzer/ettercap
 net-analyzer/fping
 net-analyzer/iftop
 net-analyzer/macchanger
@@ -182,12 +187,13 @@ net-libs/czmq
 net-libs/rabbitmq-c
 net-mail/isync
 net-mail/mu
+net-misc/adjtimex
 net-misc/aria2
 net-misc/curl
 net-misc/freerdp
 net-misc/megatools
 net-misc/nemesis
-net-misc/ntp
+net-misc/openntpd
 net-misc/openssh
 net-misc/socat
 net-misc/streamlink

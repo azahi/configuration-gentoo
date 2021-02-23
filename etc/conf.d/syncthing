@@ -15,10 +15,10 @@ SYNCTHING_LOGFILE="/var/log/syncthing/syncthing.log"
 SYNCTHING_UMASK=007
 
 # I/O nice level of syncthing
-#SYNCTHING_IONICE="0"
+SYNCTHING_IONICE="3"
 
 # Nice level of syncthing
-#SYNCTHING_NICE="0"
+SYNCTHING_NICE="3"
 
 # Extra options for syncthing
 #SYNCTHING_OPTS=""

@@ -29,6 +29,7 @@ static const Rule rules[] = {
 	{ "Cutter",          NULL,      NULL,      1 << 2, 0, -1 },
 	{ "Emacs",           NULL,      NULL,      1 << 0, 0, -1 },
 	{ "Firefox",         NULL,      NULL,      1 << 1, 0, -1 },
+	{ "LibreWolf",       NULL,      NULL,      1 << 1, 0, -1 },
 	{ "jetbrains-clion", NULL,      NULL,      1 << 2, 0, -1 },
 	{ "qutebrowser",     NULL,      NULL,      1 << 1, 0, -1 },
 };
