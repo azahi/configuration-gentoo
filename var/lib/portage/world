@@ -192,6 +192,7 @@ net-misc/aria2
 net-misc/curl
 net-misc/freerdp
 net-misc/megatools
+net-misc/mosh
 net-misc/nemesis
 net-misc/openntpd
 net-misc/openssh
