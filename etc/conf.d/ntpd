@@ -4,4 +4,4 @@
 #  -s   Set the time immediately at startup
 #       (Note: may cause up to a 15 second startup delay
 #        if ntp servers not reachable)
-NTPD_OPTS=""
+NTPD_OPTS="-v"

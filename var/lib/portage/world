@@ -78,7 +78,13 @@ dev-haskell/hledger
 dev-haskell/hpack
 dev-haskell/hscolour
 dev-haskell/hunit
+dev-lang/go:0/1.16
+dev-lang/python:3.8
+dev-lang/rust:stable
+dev-lang/tcc
 dev-libs/dmalloc
+dev-libs/jemalloc
+dev-libs/rocksdb
 dev-lisp/sbcl
 dev-python/autopep8
 dev-python/black
@@ -121,6 +127,7 @@ dev-util/include-what-you-use
 dev-util/lldb
 dev-util/lsuio
 dev-util/ltrace
+dev-util/patchutils
 dev-util/perf
 dev-util/plan9port
 dev-util/radare2
@@ -182,8 +189,10 @@ net-firewall/ufw
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/lftp
+net-im/telegram-desktop
 net-libs/cppzmq
 net-libs/czmq
+net-libs/grpc
 net-libs/rabbitmq-c
 net-mail/isync
 net-mail/mu
@@ -196,6 +205,7 @@ net-misc/mosh
 net-misc/nemesis
 net-misc/openntpd
 net-misc/openssh
+net-misc/rdate
 net-misc/socat
 net-misc/streamlink
 net-misc/telnet-bsd
@@ -211,8 +221,10 @@ net-wireless/aircrack-ng
 net-wireless/iwd
 sci-calculators/units
 sci-visualization/gnuplot
+sys-apps/bat
 sys-apps/earlyoom
 sys-apps/fakeroot
+sys-apps/fd
 sys-apps/hdparm
 sys-apps/lm-sensors
 sys-apps/lshw
@@ -220,6 +232,7 @@ sys-apps/mawk
 sys-apps/netplug
 sys-apps/pmount
 sys-apps/pv
+sys-apps/ripgrep
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-block/parted
@@ -259,12 +272,14 @@ x11-apps/xrandr
 x11-apps/xset
 x11-apps/xsetroot
 x11-apps/xwininfo
+x11-libs/cairo
 x11-misc/autocutsel
 x11-misc/dmenu
 x11-misc/slock
 x11-misc/xbanish
 x11-misc/xbindkeys
 x11-misc/xclip
+x11-misc/xdotool
 x11-misc/xgetres
 x11-terms/st
 x11-wm/dwm
