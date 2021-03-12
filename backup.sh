@@ -1,37 +1,30 @@
 #!/bin/sh
 
 ### Functions
-prepare()
-{
-    for i in etc var usr
-    do
-        [ -d "./$i" ] && \
+prepare() {
+    for i in etc var usr; do
+        [ -d "./$i" ] &&
             rm -rf "./$i"
     done
 }
 
-mkdir_check()
-{
-    [ ! -d "$1" ] && \
+mkdir_check() {
+    [ ! -d "$1" ] &&
         mkdir -p "$1"
 }
 
-rm_check()
-{
-    if [ -d "$1" ] || [ -f "$1" ]
-    then
+rm_check() {
+    if [ -d "$1" ] || [ -f "$1" ]; then
         rm -rf "$1"
     fi
 }
 
-dump_dir()
-{
+dump_dir() {
     mkdir_check ".$1"
     rsync --archive "$1/" ".$1"
 }
 
-dump_file()
-{
+dump_file() {
     rsync --archive "$1" ".$1"
 }
 
@@ -60,7 +53,7 @@ dump_file /etc/doas.conf
 
 # Kernel
 mkdir_check ./usr/src/linux
-zcat /proc/config.gz > ./usr/src/linux/.config
+zcat /proc/config.gz >./usr/src/linux/.config
 
 # Kernel modules
 dump_dir /etc/modprobe.d
