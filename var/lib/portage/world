@@ -111,6 +111,7 @@ dev-util/lsuio
 dev-util/ltrace
 dev-util/patchutils
 dev-util/perf
+dev-util/pkgcheck
 dev-util/plan9port
 dev-util/radare2
 dev-util/rr
@@ -200,7 +201,6 @@ net-vpn/openvpn
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
 net-wireless/iwd
-sci-calculators/units
 sci-visualization/gnuplot
 sys-apps/earlyoom
 sys-apps/fakeroot
