@@ -8,6 +8,7 @@ app-admin/perl-cleaner
 app-admin/pwgen
 app-admin/stow
 app-admin/syslog-ng
+app-admin/sysstat
 app-arch/alien
 app-arch/dpkg
 app-arch/p7zip
@@ -60,7 +61,6 @@ app-text/grip
 app-text/hunspell
 app-text/lv
 app-text/mupdf
-app-text/texlive
 dev-cpp/catch
 dev-db/postgresql
 dev-db/sqlite
@@ -83,9 +83,6 @@ dev-python/python-language-server
 dev-python/setuptools
 dev-python/virtualenv
 dev-scheme/chicken
-dev-tex/biblatex
-dev-tex/latexdiff
-dev-tex/latexmk
 dev-util/bear
 dev-util/bloaty
 dev-util/bsdiff
@@ -101,7 +98,6 @@ dev-util/cppcheck
 dev-util/cproto
 dev-util/cscope
 dev-util/ctags
-dev-util/cutter
 dev-util/cvise
 dev-util/cwdiff
 dev-util/debugedit
