@@ -4,4 +4,3 @@ bashrc
 bashrc.d
 make.conf.lto
 make.conf.lto.defines
-package.cflags/
