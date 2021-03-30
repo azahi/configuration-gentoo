@@ -17,6 +17,7 @@ app-arch/rpm
 app-arch/unrar
 app-arch/unzip
 app-cdr/cuetools
+app-crypt/gnupg
 app-doc/cppman
 app-doc/doxygen
 app-doc/eclass-manpages
@@ -50,8 +51,9 @@ app-portage/overlint
 app-portage/pfl
 app-portage/repoman
 app-portage/smart-live-rebuild
-app-shells/fish
+app-shells/dash
 app-shells/fzy
+app-shells/loksh
 app-shells/zsh
 app-text/calibre
 app-text/convmv
@@ -60,6 +62,7 @@ app-text/editorconfig-core-c
 app-text/grip
 app-text/hunspell
 app-text/languagetool
+app-text/lv
 app-text/mupdf
 app-text/pandoc
 app-text/texlive
@@ -78,9 +81,6 @@ dev-haskell/hledger
 dev-haskell/hpack
 dev-haskell/hscolour
 dev-haskell/hunit
-dev-lang/go:0/1.16
-dev-lang/python:3.8
-dev-lang/rust:stable
 dev-lang/tcc
 dev-libs/dmalloc
 dev-libs/jemalloc
@@ -93,6 +93,7 @@ dev-python/nose
 dev-python/pip
 dev-python/pipenv
 dev-python/pyflakes
+dev-python/pylast
 dev-python/pynvim
 dev-python/pytest
 dev-python/python-language-server
@@ -164,10 +165,12 @@ media-libs/sdl2-mixer
 media-libs/sdl2-net
 media-libs/sdl2-ttf
 media-sound/beets
+media-sound/mp3val
 media-sound/mpc
 media-sound/mpd
 media-sound/mpdscribble
 media-sound/ncmpcpp
+media-sound/shntool
 media-video/mediainfo
 media-video/mpv
 media-video/subliminal
@@ -189,7 +192,6 @@ net-firewall/ufw
 net-fs/nfs-utils
 net-fs/sshfs
 net-ftp/lftp
-net-im/telegram-desktop
 net-libs/cppzmq
 net-libs/czmq
 net-libs/grpc

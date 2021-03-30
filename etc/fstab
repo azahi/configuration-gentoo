@@ -1,4 +1,5 @@
-tmpfs                 /tmp          tmpfs   size=4G,noatime                                                                                                                                    0 0
-/dev/mapper/sg-swap   none          swap    defaults,noatime,discard                                                                                                                           0 0
-/dev/mapper/sg-root   /             f2fs    rw,active_logs=6,background_gc=on,no_heap,acl,user_xattr,inline_xattr,inline_data,inline_dentry,flush_merge,mode=adaptive,fsync_mode=posix,discard 0 0
-/dev/mapper/sg-home   /home         f2fs    rw,active_logs=6,background_gc=on,no_heap,acl,user_xattr,inline_xattr,inline_data,inline_dentry,flush_merge,mode=adaptive,fsync_mode=posix,discard 0 0
+tmpfs                                     /tmp        tmpfs size=4G,noatime                                                                                                                                    0 0
+/dev/mapper/sg-swap                       none        swap  defaults,noatime,discard                                                                                                                           0 0
+/dev/mapper/sg-root                       /           f2fs  rw,active_logs=6,background_gc=on,no_heap,acl,user_xattr,inline_xattr,inline_data,inline_dentry,flush_merge,mode=adaptive,fsync_mode=posix,discard 0 0
+/dev/mapper/sg-home                       /home       f2fs  rw,active_logs=6,background_gc=on,no_heap,acl,user_xattr,inline_xattr,inline_data,inline_dentry,flush_merge,mode=adaptive,fsync_mode=posix,discard 0 0
+UUID=45c75bf0-c76b-40ed-8ab4-bc23248c779b /media/blue btrfs defaults,compress=zstd                                                                                                                             0 0
