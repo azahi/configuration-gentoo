@@ -20,7 +20,6 @@ app-cdr/cuetools
 app-crypt/gnupg
 app-crypt/mit-krb5
 app-doc/cppman
-app-doc/doxygen
 app-doc/eclass-manpages
 app-doc/x86-manpages
 app-editors/emacs
@@ -106,11 +105,11 @@ dev-util/include-what-you-use
 dev-util/lldb
 dev-util/lsuio
 dev-util/ltrace
+dev-util/patchelf
 dev-util/patchutils
 dev-util/perf
 dev-util/pkgcheck
 dev-util/plan9port
-dev-util/radare2
 dev-util/rr
 dev-util/scanmem
 dev-util/splint
@@ -198,7 +197,6 @@ net-vpn/openvpn
 net-vpn/wireguard-tools
 net-wireless/aircrack-ng
 net-wireless/iwd
-sci-visualization/gnuplot
 sys-apps/earlyoom
 sys-apps/fakeroot
 sys-apps/hdparm
@@ -251,6 +249,7 @@ x11-apps/xwininfo
 x11-misc/autocutsel
 x11-misc/dmenu
 x11-misc/slock
+x11-misc/wmname
 x11-misc/xbanish
 x11-misc/xbindkeys
 x11-misc/xclip
