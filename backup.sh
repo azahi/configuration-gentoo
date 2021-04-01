@@ -54,6 +54,9 @@ dump_dir /etc/X11/xorg.conf.d
 # doas
 dump_file /etc/doas.conf
 
+# Python
+dump_dir /etc/python-exec
+
 # Kernel
 mkdir_check ./usr/src/linux
 zcat /proc/config.gz >./usr/src/linux/.config
