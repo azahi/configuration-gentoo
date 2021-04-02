@@ -64,6 +64,7 @@ dev-cpp/amqp-cpp
 dev-cpp/argparse
 dev-cpp/asio
 dev-cpp/catch
+dev-cpp/ms-gsl
 dev-cpp/picojson
 dev-cpp/websocketpp
 dev-cpp/yaml-cpp
@@ -174,13 +175,13 @@ net-libs/cppzmq
 net-libs/czmq
 net-libs/grpc
 net-libs/rabbitmq-c
+net-libs/zmqpp
 net-mail/isync
 net-mail/mu
 net-misc/adjtimex
 net-misc/aria2
 net-misc/curl
 net-misc/freerdp
-net-misc/megatools
 net-misc/mosh
 net-misc/nemesis
 net-misc/openntpd

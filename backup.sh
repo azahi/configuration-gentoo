@@ -69,7 +69,8 @@ dump_dir /etc/modules-load.d
 dump_dir /etc/sysctl.d
 dump_file /etc/sysctl.conf
 
-# conf.d
+# OpenRC
+dump_dir /etc/runlevels
 dump_dir /etc/conf.d
 
 # udev
