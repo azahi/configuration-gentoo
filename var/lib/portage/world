@@ -34,6 +34,7 @@ app-i18n/translate-shell
 app-laptop/laptop-mode-tools
 app-laptop/thinkfan
 app-laptop/tp_smapi
+app-misc/abduco
 app-misc/colordiff
 app-misc/grc
 app-misc/jot
@@ -251,6 +252,7 @@ x11-apps/xsetroot
 x11-apps/xwininfo
 x11-misc/autocutsel
 x11-misc/dmenu
+x11-misc/grabc
 x11-misc/slock
 x11-misc/wmname
 x11-misc/xbanish
