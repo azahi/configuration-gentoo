@@ -1,2 +1,2 @@
 LESSOPEN="|lesspipe %s"
-LESS="-sFRiMX --shift 5"
+LESS="-R -M --shift 5"

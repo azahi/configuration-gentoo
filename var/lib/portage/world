@@ -23,7 +23,7 @@ app-doc/cppman
 app-doc/eclass-manpages
 app-doc/x86-manpages
 app-editors/emacs
-app-editors/neovim
+app-editors/vim
 app-emulation/docker
 app-emulation/docker-cli
 app-emulation/docker-compose
@@ -77,11 +77,12 @@ dev-python/pip
 dev-python/pipenv
 dev-python/pyflakes
 dev-python/pylast
-dev-python/pynvim
 dev-python/pytest
 dev-python/python-language-server
 dev-python/setuptools
 dev-python/virtualenv
+dev-util/abi-compliance-checker
+dev-util/abi-dumper
 dev-util/bear
 dev-util/bloaty
 dev-util/bsdiff
@@ -115,6 +116,7 @@ dev-util/splint
 dev-util/strace
 dev-util/valgrind
 dev-util/vbindiff
+dev-util/vmtouch
 dev-util/vtable-dumper
 dev-util/wakatime
 dev-vcs/git
@@ -145,6 +147,7 @@ media-sound/mpd
 media-sound/mpdscribble
 media-sound/ncmpcpp
 media-sound/shntool
+media-sound/split2flac
 media-video/ffcast
 media-video/mediainfo
 media-video/mpv
@@ -156,6 +159,7 @@ net-analyzer/fping
 net-analyzer/iftop
 net-analyzer/macchanger
 net-analyzer/mtr
+net-analyzer/nettop
 net-analyzer/ngrep
 net-analyzer/nmap
 net-analyzer/openbsd-netcat
@@ -207,6 +211,7 @@ sys-apps/pmount
 sys-apps/pv
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
+sys-block/blktrace
 sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
@@ -220,6 +225,7 @@ sys-fs/ddrescue
 sys-fs/dosfstools
 sys-fs/exfatprogs
 sys-fs/f2fs-tools
+sys-fs/nilfs-utils
 sys-fs/ntfs3g
 sys-fs/squashfs-tools-ng
 sys-fs/sysfsutils
