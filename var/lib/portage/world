@@ -58,14 +58,13 @@ dev-cpp/aixlog
 dev-cpp/amqp-cpp
 dev-cpp/argparse
 dev-cpp/asio
-dev-cpp/catch
+dev-cpp/gtest
 dev-cpp/ms-gsl
 dev-cpp/picojson
 dev-cpp/websocketpp
 dev-cpp/yaml-cpp
 dev-db/postgresql
 dev-db/sqlite
-dev-db/sqlmap
 dev-libs/boost
 dev-libs/dmalloc
 dev-libs/jemalloc
@@ -77,6 +76,7 @@ dev-python/pip
 dev-python/pipenv
 dev-python/pyflakes
 dev-python/pylast
+dev-python/pylint
 dev-python/pytest
 dev-python/python-language-server
 dev-python/setuptools
@@ -130,16 +130,6 @@ media-fonts/source-pro
 media-fonts/uw-ttyp0
 media-gfx/maim
 media-gfx/sxiv
-media-libs/assimp
-media-libs/freeglut
-media-libs/glfw
-media-libs/libsdl2
-media-libs/opencv
-media-libs/sdl2-gfx
-media-libs/sdl2-image
-media-libs/sdl2-mixer
-media-libs/sdl2-net
-media-libs/sdl2-ttf
 media-sound/beets
 media-sound/mp3val
 media-sound/mpc
@@ -166,6 +156,7 @@ net-analyzer/openbsd-netcat
 net-analyzer/speedtest-cli
 net-analyzer/tcpdump
 net-analyzer/traceroute
+net-analyzer/vnstat
 net-dns/bind-tools
 net-firewall/ufw
 net-fs/nfs-utils
@@ -174,7 +165,6 @@ net-ftp/lftp
 net-libs/cppzmq
 net-libs/czmq
 net-libs/grpc
-net-libs/rabbitmq-c
 net-libs/zmqpp
 net-mail/isync
 net-mail/mu
@@ -202,7 +192,9 @@ net-wireless/aircrack-ng
 net-wireless/iwd
 sys-apps/earlyoom
 sys-apps/fakeroot
+sys-apps/haveged
 sys-apps/hdparm
+sys-apps/irqbalance
 sys-apps/lm-sensors
 sys-apps/lshw
 sys-apps/mawk
@@ -217,7 +209,6 @@ sys-boot/efibootmgr
 sys-config/ltoize
 sys-devel/crossdev
 sys-devel/gdb
-sys-devel/gef
 sys-devel/remake
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
@@ -240,6 +231,7 @@ sys-process/iotop-c
 sys-process/lsof
 sys-process/parallel
 sys-process/uksmd
+sys-process/usbtop
 www-client/lynx
 www-client/qutebrowser
 www-client/surfraw
