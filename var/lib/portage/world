@@ -102,7 +102,6 @@ dev-util/cvise
 dev-util/cwdiff
 dev-util/debugedit
 dev-util/glslang
-dev-util/include-what-you-use
 dev-util/lldb
 dev-util/lsuio
 dev-util/ltrace

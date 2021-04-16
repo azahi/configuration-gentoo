@@ -1,5 +1,0 @@
-PATH="/usr/lib/llvm/11/bin"
-# we need to duplicate it in ROOTPATH for Portage to respect...
-ROOTPATH="/usr/lib/llvm/11/bin"
-MANPATH="/usr/lib/llvm/11/share/man"
-LDPATH="/usr/lib/llvm/11/lib64"
