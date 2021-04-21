@@ -58,6 +58,7 @@ dev-cpp/aixlog
 dev-cpp/amqp-cpp
 dev-cpp/argparse
 dev-cpp/asio
+dev-cpp/catch
 dev-cpp/gtest
 dev-cpp/ms-gsl
 dev-cpp/picojson
@@ -89,7 +90,6 @@ dev-util/bsdiff
 dev-util/ccache
 dev-util/ccls
 dev-util/cflow
-dev-util/clazy
 dev-util/cloc
 dev-util/cmake
 dev-util/cmocka
