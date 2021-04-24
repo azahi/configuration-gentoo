@@ -113,7 +113,6 @@ dump_file /etc/hdparm.conf
 dump_file /etc/issue
 dump_file /etc/locale.gen
 dump_file /etc/login.defs
-dump_file /etc/ltrace.conf
 dump_file /etc/mpd.conf
 dump_file /etc/thinkfan.conf
 dump_file /etc/timezone
