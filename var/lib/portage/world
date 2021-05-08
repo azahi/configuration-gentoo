@@ -24,6 +24,7 @@ app-emulation/docker
 app-emulation/docker-cli
 app-emulation/docker-compose
 app-emulation/docker-machine
+app-emulation/podman
 app-emulation/qemu
 app-eselect/eselect-repository
 app-i18n/translate-shell
