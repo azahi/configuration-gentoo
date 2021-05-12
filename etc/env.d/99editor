@@ -1,4 +1,4 @@
 # Configuration file for eselect
 # This file has been automatically generated.
-EDITOR="nvim"
+EDITOR="vim"
 VISUAL="nvim"
