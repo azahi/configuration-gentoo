@@ -91,7 +91,6 @@ dev-util/cscope
 dev-util/ctags
 dev-util/cvise
 dev-util/debugedit
-dev-util/include-what-you-use
 dev-util/lldb
 dev-util/ltrace
 dev-util/ninja
@@ -107,6 +106,7 @@ dev-util/valgrind
 dev-util/vmtouch
 dev-util/vtable-dumper
 dev-vcs/git
+dev-vcs/mercurial
 dev-vcs/subversion
 media-fonts/baekmuk-fonts
 media-fonts/efont-unicode
@@ -114,8 +114,8 @@ media-fonts/ja-ipafonts
 media-fonts/source-han-sans
 media-fonts/source-pro
 media-fonts/uw-ttyp0
+media-gfx/imv
 media-gfx/maim
-media-gfx/sxiv
 media-sound/mpc
 media-sound/mpd
 media-sound/mpdscribble
