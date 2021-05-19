@@ -9,12 +9,12 @@
 # configuration.
 
 # default thresholds for '/etc/init.d/smapi start'
-SMAPI_THRESH_START="20"
-SMAPI_THRESH_STOP="80"
+SMAPI_THRESH_START="0"
+SMAPI_THRESH_STOP="100"
 # values to be used for '/etc/init.d/smapi low'
 SMAPI_LOW_THRESH_START="${SMAPI_THRESH_START}"
 SMAPI_LOW_THRESH_STOP="${SMAPI_THRESH_STOP}"
 
 # values to be used for '/etc/init.d/smapi high'
-SMAPI_HIGH_THRESH_START="95"
+SMAPI_HIGH_THRESH_START="0"
 SMAPI_HIGH_THRESH_STOP="100"
