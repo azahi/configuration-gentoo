@@ -177,6 +177,7 @@ sys-devel/gdb
 sys-devel/remake
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
+sys-fs/compsize
 sys-fs/ddrescue
 sys-fs/dosfstools
 sys-fs/exfatprogs
