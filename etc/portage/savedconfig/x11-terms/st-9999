@@ -1,5 +1,5 @@
 static char *font = "UW Ttyp0:pixelsize=14:style=Regular:antialias=false";
-static int borderpx = 5;
+static int borderpx = 4;
 
 static char *shell = "/bin/sh";
 char *utmp = NULL;
@@ -320,4 +320,4 @@ static uint selmasks[] = {
 
 static char ascii_printable[] = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
 
-// vim: filetype=c
+/* vim: filetype=c */
