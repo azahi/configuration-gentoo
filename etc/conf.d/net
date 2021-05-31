@@ -3,5 +3,10 @@ modules="!dhclient !dhcpcd udhcpc"
 modules_wlan0="!wireless iwd"
 config_wlan0="dhcp"
 
-modules_eth0="!ifplugd netplug"
-config_eth0="dhcp"
+#modules_eth0="!ifplugd netplug"
+#config_eth0="dhcp"
+
+modules_eth0="ifconfig"
+config_eth0="10.10.20.165/24"
+routes_eth0="default via 10.10.20.1"
+dns_servers_SSID="10.10.20.2"

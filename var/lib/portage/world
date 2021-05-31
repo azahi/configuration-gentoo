@@ -15,8 +15,6 @@ app-arch/unrar
 app-arch/unzip
 app-crypt/gnupg
 app-crypt/mit-krb5
-app-doc/eclass-manpages
-app-doc/x86-manpages
 app-editors/emacs
 app-editors/vim
 app-emulation/docker
@@ -184,6 +182,7 @@ sys-fs/exfatprogs
 sys-fs/f2fs-tools
 sys-fs/nilfs-utils
 sys-fs/ntfs3g
+sys-fs/squashfs-tools
 sys-fs/squashfs-tools-ng
 sys-fs/sysfsutils
 sys-kernel/buildkernel
