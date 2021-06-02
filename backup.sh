@@ -43,7 +43,7 @@ rm_check ./etc/portage/make.conf.lto
 rm_check ./etc/portage/make.conf.lto.defines
 rm_check ./etc/portage/package.cflags
 mkdir_check ./etc/portage/package.cflags
-dump_file /etc/portage/package.cflags/local.conf
+dump_file /etc/portage/package.cflags/10-local.conf
 
 # eclean
 dump_dir /etc/eclean
