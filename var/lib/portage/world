@@ -13,6 +13,7 @@ app-arch/pigz
 app-arch/rpm
 app-arch/unrar
 app-arch/unzip
+app-crypt/bsign
 app-crypt/gnupg
 app-crypt/mit-krb5
 app-editors/emacs
