@@ -23,7 +23,6 @@ app-emulation/docker-cli
 app-emulation/docker-compose
 app-emulation/docker-machine
 app-emulation/podman
-app-emulation/qemu
 app-eselect/eselect-repository
 app-i18n/translate-shell
 app-laptop/laptop-mode-tools
@@ -80,7 +79,6 @@ dev-util/abi-dumper
 dev-util/bear
 dev-util/bloaty
 dev-util/ccache
-dev-util/ccls
 dev-util/cflow
 dev-util/cloc
 dev-util/cmake
@@ -88,9 +86,7 @@ dev-util/cppcheck
 dev-util/cproto
 dev-util/cscope
 dev-util/ctags
-dev-util/cvise
 dev-util/debugedit
-dev-util/lldb
 dev-util/ltrace
 dev-util/ninja
 dev-util/patchelf
@@ -171,8 +167,10 @@ sys-block/blktrace
 sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
+sys-devel/bmake
 sys-devel/crossdev
 sys-devel/gdb
+sys-devel/pmake
 sys-devel/remake
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
