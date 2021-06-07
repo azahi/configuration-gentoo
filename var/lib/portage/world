@@ -76,7 +76,6 @@ dev-qt/qtxml
 dev-qt/qtxmlpatterns
 dev-util/abi-compliance-checker
 dev-util/abi-dumper
-dev-util/bear
 dev-util/bloaty
 dev-util/ccache
 dev-util/cflow
@@ -93,6 +92,7 @@ dev-util/patchelf
 dev-util/patchutils
 dev-util/perf
 dev-util/pkgcheck
+dev-util/poke
 dev-util/rr
 dev-util/scanmem
 dev-util/splint
@@ -170,7 +170,6 @@ sys-config/ltoize
 sys-devel/bmake
 sys-devel/crossdev
 sys-devel/gdb
-sys-devel/pmake
 sys-devel/remake
 sys-firmware/intel-microcode
 sys-fs/btrfs-progs
