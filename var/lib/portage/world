@@ -92,6 +92,7 @@ dev-util/patchelf
 dev-util/patchutils
 dev-util/perf
 dev-util/pkgcheck
+dev-util/pkgdiff
 dev-util/poke
 dev-util/rr
 dev-util/scanmem
