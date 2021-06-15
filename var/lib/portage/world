@@ -165,7 +165,6 @@ sys-apps/pv
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
 sys-block/blktrace
-sys-block/parted
 sys-boot/efibootmgr
 sys-config/ltoize
 sys-devel/bmake
