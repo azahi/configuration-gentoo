@@ -18,10 +18,13 @@ app-crypt/gnupg
 app-crypt/mit-krb5
 app-editors/emacs
 app-editors/vim
+app-emulation/distrobuilder
 app-emulation/docker
 app-emulation/docker-cli
 app-emulation/docker-compose
 app-emulation/docker-machine
+app-emulation/lxc
+app-emulation/lxc-templates
 app-emulation/podman
 app-eselect/eselect-repository
 app-i18n/translate-shell
@@ -114,6 +117,7 @@ media-gfx/imv
 media-gfx/maim
 media-sound/mpc
 media-sound/mpd
+media-sound/mpdscribble
 media-sound/ncmpcpp
 media-video/mpv
 media-video/subliminal
@@ -177,6 +181,7 @@ sys-fs/ddrescue
 sys-fs/dosfstools
 sys-fs/exfatprogs
 sys-fs/f2fs-tools
+sys-fs/lxcfs
 sys-fs/nilfs-utils
 sys-fs/ntfs3g
 sys-fs/squashfs-tools

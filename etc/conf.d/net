@@ -7,5 +7,5 @@ config_wlan0="dhcp"
 #config_eth0="dhcp"
 
 modules_eth0="!ifconfig iproute2"
-config_eth0="10.10.20.165/24"
-dns_servers_SSID="10.10.20.2"
+config_eth0="10.10.30.165/24"
+dns_servers_SSID="10.10.30.2"
