@@ -155,7 +155,6 @@ net-vpn/openvpn
 net-vpn/wireguard-tools
 net-wireless/iwd
 sys-apps/earlyoom
-sys-apps/fakeroot
 sys-apps/haveged
 sys-apps/hdparm
 sys-apps/irqbalance
