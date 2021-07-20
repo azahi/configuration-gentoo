@@ -37,13 +37,6 @@ dump_dir /etc/portage
 mkdir_check ./var/lib/portage
 dump_file /var/lib/portage/world
 dump_file /var/lib/portage/world_sets
-rm_check ./etc/portage/bashrc
-rm_check ./etc/portage/bashrc.d
-rm_check ./etc/portage/make.conf.lto
-rm_check ./etc/portage/make.conf.lto.defines
-rm_check ./etc/portage/package.cflags
-mkdir_check ./etc/portage/package.cflags
-dump_file /etc/portage/package.cflags/10-local.conf
 
 # eclean
 dump_dir /etc/eclean

@@ -38,7 +38,6 @@ app-misc/tmux
 app-misc/ufetch
 app-portage/eix
 app-portage/gentoolkit
-app-portage/lto-rebuild
 app-portage/overlint
 app-portage/pfl
 app-portage/repoman
@@ -166,9 +165,9 @@ sys-apps/pmount
 sys-apps/pv
 sys-apps/smartmontools
 sys-apps/the_silver_searcher
+sys-apps/usbutils
 sys-block/blktrace
 sys-boot/efibootmgr
-sys-config/ltoize
 sys-devel/bmake
 sys-devel/crossdev
 sys-devel/gdb
